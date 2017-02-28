@@ -1,0 +1,232 @@
+body{min-width:320px;max-width: 640px;}
+
+/*头部标题栏样式*/
+._bar .icon {
+    position: relative;
+    z-index: 20;
+    padding: .5rem .1rem;
+    font-size: .8rem;
+    line-height: 1.0rem;
+    color: #fff;
+}
+/*头部标题栏样式*/
+._bar .button{
+	border: none;
+}
+/*头部标题栏样式*/
+._title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 -.5rem;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #EFEFF4;
+    text-align: center;
+    white-space: nowrap;
+}
+/*头部标题栏样式*/
+._bar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.22rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    background-color: #ff6600;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*轮播图样式*/
+.swiper-slide img{
+	width: 100%;
+}
+/*轮播图样式*/
+.content .swiper-container{
+	padding-bottom: .45rem;
+}
+/*轮播图样式*/
+.content .swiper-container-horizontal>.swiper-pagination{
+	bottom: .5rem;
+}
+/*栅格栏样式*/
+.row .col-50{
+    width: 44.4%;
+    height: 10.41rem;
+    background: yellow;
+    border: #eeeded .045rem solid;
+}
+/*栅格栏样式*/
+._col{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+/*栅格栏样式*/
+._col .col-left,._col .col-right{
+	width: 48.6%;
+	height: 10.41rem;
+	background: #FFF;
+	border: #eeeded .045rem solid;
+	box-sizing: border-box;
+}
+/*栅格栏样式*/
+.Show-pictures{
+	width: 100%;
+	height: 7.97rem;
+}
+/*栅格栏样式*/
+.product-price{
+	width: 100%;
+}
+/*栅格栏样式*/
+.product-price p,.product-price div{
+	margin: .15rem;
+}
+/*栅格栏样式*/
+.product-price div span:nth-child(1){
+	font-size: .63rem;
+	color: #ff3131;
+	line-height: 1rem;
+	font-weight: bold;
+}
+/*栅格栏样式*/
+.product-price div span:nth-child(2){
+	font-size: .45rem;
+	line-height: 1rem;
+}
+/*优惠卷栏样式*/
+.shopName{
+	width: 100%;
+	height: 3.849rem;
+	margin-top: .679rem;
+	position: relative;
+	background-color: #ff4b4b;
+}
+/*店铺活动详情*/
+.shopName>.ShopActivity{
+	width: 6.5rem;
+	margin: 0 .452rem;
+	padding-top: .588rem;
+	font-size: .543rem;
+	text-align: center;
+	color: #FFF;
+}
+.shopName>.ShopActivity>li:nth-child(2){
+	border: solid #FFF .045rem;
+}
+.Get10,.Get20,.Get50{
+	width: 3.170rem;
+	height: 3.170rem;
+	position: absolute;
+	top: -.679rem;
+}
+.Get10{
+	left: 7.019rem;
+	background: url(../image/img_10元@3x.png);
+	background-size: 100% 100%;
+}
+.Get20{
+	left: 11.050rem;
+	background: url(../image/img_10元@3x.png);
+	background-size: 100% 100%;
+}
+.Get50{
+	left: 15.081rem;
+	background: url(../image/img_10元@3x.png);
+	background-size: 100% 100%;
+}
+/*侧边栏样式*/
+.panel .content-block{
+	margin: .6rem 0;
+}
+/*侧边栏样式*/
+.content-block{
+	font-family: "微软雅黑";
+	font-weight: 500;
+}
+/*侧边栏样式*/
+.content-block p{
+	font-size: .8rem;
+}
+/*侧边栏样式*/
+.screen-money div>input,.delivery-form div>input{
+	width: 30%;
+	height: 1.25rem;
+	text-align: center;
+}
+/*侧边栏样式*/
+.screen-money div{
+	padding: .90rem 0;
+	border-bottom: .09rem solid #848789;
+}
+/*侧边栏样式*/
+.screen-money div>span{
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	border-bottom: .04rem solid #848789;
+	margin: 0 .2rem;
+}
+/*侧边栏样式*/
+.delivery-form{
+	margin-top: 1.5rem;
+}	
+/*侧边栏样式*/
+.delivery-form div{
+	padding: .9rem 0;
+}
+/*侧边栏样式*/
+.region>div{
+	padding: .90rem 0;
+}
+/*侧边栏样式*/
+.region>div button,.province>.province-01>button,.province>.province-02>button,.category>.category-01>button,.category>.category-02>button{
+	width: 20%;
+	height: 1.17rem;
+	margin-right: .6rem;
+	color: #666;
+}
+/*侧边栏样式*/
+.province>.province-01,.province>.province-02,.category>.category-01,.category>.category-02{
+	padding-top: .9rem;
+}
+/*侧边栏样式*/
+.province>.province-02{
+	padding-bottom: 1.4rem;
+	border-bottom: .04rem solid #889;
+}
+/*侧边栏样式*/
+.category{
+	margin-top: 1.49rem;
+}
+/*侧边栏样式*/
+.is-btn>button{
+	width: 30%;
+	color: #666;
+	height: 1.31rem;
+	margin: 2.5rem 0 0 1.7rem;
+}
+.content>.content-padded{
+	padding: .5rem;
+    background: #FFF;
+    margin: .5rem 0 0 0;
+}
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}

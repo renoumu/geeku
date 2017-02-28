@@ -1,0 +1,136 @@
+body{min-width:320px;max-width: 640px;}
+.mask{
+	width: 100%;
+	height: 8.33rem;
+	background: rgba(0,0,0,0.2);
+}
+.selects{
+	width: 100%;
+	background: #fff;
+}
+.selects>.selects-name{
+	height: 5.75rem;
+	position:relative;
+}
+.selects-name-left{
+	width: 30%;
+	height: 5.75rem;
+	position: absolute;
+	top:-1.04rem;
+	left: .49rem;
+}
+.selects-name-middle{
+	width: 60%;
+}
+.selects-name-detail {
+	position: absolute;
+	left: 6.7rem;
+	margin-top: .67rem;
+}
+.selects-name-detail div:nth-child(1){
+	font-size: .67rem;
+	color: #f44;
+	margin: .31rem 0;
+}
+.selects-name-detail div:nth-child(1)>span{
+	font-size: .5rem;
+}
+.selects-name-detail div:nth-child(2){
+	font-size: .58rem;
+	color: #777;
+}
+.selects-name-detail div:nth-child(3),.selects-name-detail div:nth-child(4){
+	font-size: .58rem;
+	color: #bbb;
+}
+.selectCon{
+	padding: 0 .49rem;
+	background: #fff;
+}
+.selectCon>.color{
+	height: 4.5rem;
+	border-bottom: .04rem solid #ccc;
+}
+.selectCon>.color>div,.selectCon>.Size>div,.selectCon>.Quantity>div{
+	font-size: .81rem;
+	font-weight: 600;
+	margin-left: .90rem;
+}
+.selectCon>.color>ul{
+	margin-top: .49rem;
+}
+.selectCon>.color>ul>li,.selectCon>.Size>ul>li{
+	float: left;
+	font-size: .58rem;
+	width: 18%;
+	height: 1.49rem;
+	margin-left: .90rem;
+	text-align: center;
+	line-height: 1.49rem;
+	background-color: #f5f5f5;
+	border: .04rem solid #ccc;
+}
+.selectCon>.Size{
+	height: 6.4rem;
+	border-bottom: .04rem solid #ccc;
+}
+.selectCon>.Size>div{
+	margin-top: .99rem;
+}
+.selectCon>.Size>ul>li{
+	margin-top: .49rem;
+}
+.selectCon>.Quantity{
+	height: 3.8rem;
+	border-bottom: .04rem solid #ccc;
+	padding-top: 1.1rem;
+}
+.selectCon>.Quantity>ul>li{
+	float: left;
+	font-size: .81rem;
+	font-weight: 600;
+}
+.page>.content-block{
+	margin: 0 0;
+	padding: .9rem .45rem;
+	background: #fff;
+}
+.page>.content-block p a{
+	background: #f60;
+	border: none;
+	color: #fff;
+}
+.Quantity>div{
+	line-height: 1.721rem;
+}
+.Quantity>ul>li:nth-child(1),.Quantity>ul>li:nth-child(3){
+	width: 2.264rem;
+	line-height: 1.721rem;
+	text-align: center;
+	background-color: #f5f5f5;
+	border: .04rem solid #ccc;
+}
+.Quantity>ul>li:nth-child(2){
+	line-height: 1.721rem;
+	margin: 0 .8rem;
+}
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

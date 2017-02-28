@@ -1,0 +1,99 @@
+/*最小宽度最大宽度*/
+body{min-width:320px;max-width: 640px;}
+/*综合排名样式*/
+#tab1{
+	position: relative;
+}
+/*综合排名样式*/
+.tab-list{
+	width: 30%;
+	height: 9.0rem;
+	border-radius: .45rem;
+	border: .04rem solid #ccc;
+	box-sizing: border-box;
+	background: #fff;
+	text-align: center;
+	font-size: .58rem;
+	overflow: hidden;
+	position: absolute;
+	left: 1.94rem;
+	top: .09rem;
+	display: none;
+}
+/*综合排名样式*/
+.tab-list>li{
+	height: 1.49rem;
+	line-height: 1.49rem;
+	border: .04rem solid #ccc;
+	box-sizing: border-box;
+}
+/*栅格栏样式*/
+._col{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+/*栅格栏样式*/
+._col .col-left,._col .col-right{
+	width: 48.6%;
+	height: 10.41rem;
+	background: #FFF;
+	border: #eeeded .045rem solid;
+	box-sizing: border-box;
+}
+/*产品图片样式*/
+.Show-pictures{
+	width: 100%;
+	height: 7.97rem;
+}
+/*价格区域样式*/
+.product-price{
+	width: 100%;
+}
+/*价格区域样式*/
+.product-price p,.product-price div{
+	margin: .15rem;
+}
+/*价格区域样式*/
+.product-price div span:nth-child(1){
+	font-size: .63rem;
+	color: #ff3131;
+	line-height: 1rem;
+	font-weight: bold;
+}
+/*价格区域样式*/
+.product-price div span:nth-child(2){
+	font-size: .45rem;
+	line-height: 1rem;
+}
+
+/*综合排名样式*/
+.tab-list li:active{
+	background: blue;
+	color: #fff;
+}
+.content>.buttons-tab>.button.active{
+	color: #000000;
+    border-color: #ff6600;
+    z-index: 100;
+}
+.content>.content-padded {
+	margin: .5rem 0 0;
+    padding: .5rem;
+    background: #fff;
+}
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GeekU让极客和极客精神遍布中国</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/coupon.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="_bar bar-nav">
+			   <a class="icon icon-left pull-left" href="../34/index.html"></a>
+			   <a class="icon icon-menu pull-right"></a>
+			   <h1 class="_title">店铺</h1>
+			</header>
+			<div class="content">
+				<div class="swiper-container" data-space-between='10'>
+				    <div class="swiper-wrapper">
+					    <div class="swiper-slide"><img src="image/1.png" alt=""></div>
+					    <div class="swiper-slide"><img src="image/1.png" alt=""></div>
+					    <div class="swiper-slide"><img src="image/1.png" alt=""></div>
+					    <div class="swiper-slide"><img src="image/1.png" alt=""></div>
+			    	</div>
+			    	<div class="swiper-pagination"></div>
+				</div>
+				<div class="shopName">
+					<div class="theShop clear">
+						<div class="Shop-img fl">
+							<img src="image/logo.png" alt="" style="width: 100%;">
+						</div>
+						<div class="fl Shop">
+							<div>店铺名</div>
+							<div>星级：</div>
+						</div>
+					</div>
+					<div class="Shop-details">
+						<div>店铺详情店铺详情店铺详情店铺详情店铺详情店铺详情店</div>
+						<p class="fr" style="width: 3.034rem;line-height: .996rem;background-color: #b6b6b6;color: #fff;text-align: center;margin: .2rem .45rem;">优惠卷</p>
+					</div>	
+				</div>
+				<div class="coupon">
+					<div class="coupon-50">
+						<div class="coupon-50-top clear">
+							<div class="fl">优惠卷名</div>
+							<button class="fr">获取</button>
+						</div>
+						<div class="coupon-50-middle clear">
+							<div class="fl">&yen;20元</div>
+							<span class="fl">满300元使用</span>
+						</div>
+						<div class="coupon-50-bottom">
+							<div>使用期限：2016.07.01--2016.07.30</div>
+						</div>
+					</div>
+					<div class="coupon-50">
+						<div class="coupon-50-top clear">
+							<div class="fl">优惠卷名</div>
+							<button class="fr">获取</button>
+						</div>
+						<div class="coupon-50-middle clear">
+							<div class="fl">&yen;50元</div>
+							<span class="fl">满500元使用</span>
+						</div>
+						<div class="coupon-50-bottom">
+							<div>使用期限：2016.07.01--2016.07.30</div>
+						</div>
+					</div>
+					<div class="coupon-50">
+						<div class="coupon-50-top clear">
+							<div class="fl">优惠卷名</div>
+							<button class="fr">获取</button>
+						</div>
+						<div class="coupon-50-middle clear">
+							<div class="fl">&yen;100元</div>
+							<span class="fl">满1000元使用</span>
+						</div>
+						<div class="coupon-50-bottom">
+							<div>使用期限：2016.07.01--2016.07.30</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+
+</body>
+<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+<script>
+	$.init();
+	$('.coupon-50 button').on('click',function(event){
+		$(this).text('已获取').css({
+			background: '#b6b6b6',
+			color: '#fff'
+		});
+	})
+</script>
+</html>

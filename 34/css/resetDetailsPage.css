@@ -1,0 +1,500 @@
+/*设置最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+
+/*底部nav加入购物车与立即购买*/
+.bar>a>.cart,.bar>a>.buy{
+	width: 100%;
+	height: 2.4rem;
+	border: none;
+	font-size: .72rem;
+}
+/*购物车样式*/
+.bar>a>.cart{
+	padding: 0 .86rem;
+	background: #f72;
+	color: #fee;	
+}
+/*结账样式*/
+.bar>a>.buy{
+	padding: 0 1.26rem;
+	background: #f44;
+	color: #fdd;
+}
+/*底部nav加入购物车与立即购买到此结束*/
+
+
+.content>.content-block,#tab1>.content-block,.content>.content-block,#tab2>.content-block{
+	margin: 0;
+    padding: 0;
+}
+/*轮播图样式区域*/
+.content>.swiper-container{
+	padding-bottom: 0;
+}
+/*轮播图样式区域*/
+.swiper-slide>img{
+	width: 100%;
+}
+/*轮播图样式区域到此结束*/
+
+	/*tab1区*/
+
+/*商品价格区域*/
+.Price-details{
+	width: 100%;
+	height: 4.52rem;
+	border: .04rem solid #ccc;
+	box-sizing: border-box;
+	background: #fff;
+	border-left: none;
+	border-right: none;
+	padding: 0 .59rem;
+}
+/*商品价格详情样式*/
+.Price-details-money{
+	margin: .59rem 0 0;
+	font-weight: 500;
+}
+/*商品价格详情样式*/
+.Price-details-money div{
+	font-size: .72rem;
+	color: #f44;
+}
+/*商品价格详情样式*/
+.Price-details-money div>span{
+	font-size: .62rem;
+	color: #f44;
+}
+/*宝贝名详情样式*/
+.Price-details-name{
+	font-size: .67rem;
+	font-weight: 500;
+}
+/*发货地运费销量区域样式*/
+.Price-details-situation{
+	font-size: .54rem;
+	color: #ccc;
+	margin-top: .72rem;
+}
+/*发货地运费销量区域样式*/
+.Price-details-situation div{
+	width: 33.33%;
+}
+/*发货地运费销量区域样式*/
+.Price-details-situation div:nth-child(2){
+	text-align: center;
+}
+/*发货地运费销量区域样式*/
+.Price-details-situation div:nth-child(3){
+	text-align: right;
+}
+/*商品价格区域结束*/
+
+/*满减区域样式*/
+.Full-reduction{
+	height: 2.26rem;
+	border: .04rem solid #ccc;
+	box-sizing: border-box;
+	background: #fff;
+	border-left: none;
+	border-right: none;
+	margin: .45rem 0;
+	padding: 0 .59rem;
+}
+/*满减区域样式*/
+.Full-reduction>div{
+	line-height: 1.08rem;
+	margin-top: .58rem;
+}
+/*满减区域样式*/
+.Full-reduction>div:nth-child(1){
+	font-size: .49rem;
+	text-align: center;
+	width: 15%;
+	border: .04rem solid #bdf;
+	background: #eff;
+}
+/*满减区域样式*/
+.Full-reduction>div:nth-child(2){
+	font-size: .58rem;
+	margin-left: .45rem;
+}
+/*满减区域结束*/
+
+/*评论区域*/
+.Review{
+	width: 100%;
+	background: #fff;
+}
+/*评论区域样式*/
+.Review-Evaluation{
+	height: 1.81rem;
+	font-size: .86rem;
+	font-weight: 600;
+	line-height: 1.81rem;
+	border: .04rem solid #ccc;
+	border-left: none;
+	border-right: none;
+	padding: 0 1.81rem;
+	background: url(../image/2.png) .6rem no-repeat;
+    background-size: 5%;
+}
+/*评论内容样式*/
+.Review-Con{
+	border-bottom: .04rem solid #ccc
+}
+/*评论内容头像样式*/
+.Review-Con .Review-Con-left{
+	width: 2.49rem;
+	height: 2.49rem;
+	margin: .498rem;
+} 
+/*评论内容名字样式*/
+.Review-Con-name{
+	width: 78%;
+}
+/*评论内容名字样式*/
+.Review-Con .Review-Con-name div:nth-child(1){
+	font-size: .72rem;
+	font-weight: 600;
+	margin-top: .67rem;
+}
+/*评论内容日期样式*/
+.Review-Con .Review-Con-name div:nth-child(2){
+	font-size: .45rem;
+	font-weight: 600;
+	color: #aaa;
+	margin-top: .8rem;
+}
+/*评论内容样式*/
+.Review-Con-Evaluation{
+	width: 78%;
+	font-size: .58rem;
+	font-weight: 600;
+	color: #aaa;
+	margin-top: .5rem;
+	white-space: nowrap;
+}
+/*评论区域结束*/
+
+	/*tab2区*/
+/*商品详情*/
+#tab2{
+	background: #fff;
+}
+/*商品材质样式*/
+#tab2>.content-block>.ware-detail,#tab2>.content-block>.content-point{
+	margin: .45rem .49rem 0;
+	background: #fff;
+	padding: .95rem 0 .90rem;
+	border-bottom: .04rem solid #ccc;
+}
+/*商品详情样式*/
+
+#tab2>.content-block>.ware-detail>#shop-title{
+	font-size: .76rem;
+	font-weight: 600;
+	width: 20%;
+}
+#tab2>.content-block>.ware-detail>.content_detail{
+	font-size: .63rem;
+	width: 80%;
+}
+/*商品详情结束*/
+/*商品指数*/
+#tab2>.content-block>.content-point{
+	height: 4.52rem;
+}
+/*商品指数样式*/
+#tab2>.content-block>.content-point>#shop-title{
+	font-size: .76rem;
+	font-weight: 600;
+	width: 25%;
+	height: 2.26rem;
+}
+/*商品指数样式*/
+.content-point-detail{
+	width: 75%;
+	margin-bottom: .90rem;
+}
+/*商品指数样式*/
+.content-point-detail>li{
+	float: left;
+	width: 18.75%;
+	text-align: center;
+}
+/*商品指数结束*/
+
+/*详情图样式*/
+#tab2>.content-block>.Detail-img>div{
+	margin-top: .45rem;
+}
+/*详情图样式*/
+#tab2>.content-block>.Detail-img>div>img{
+	width: 100%;
+}
+.content>.buttons-tab>.button.active{
+	color: #000000;
+    border-color: #ff6600;
+    z-index: 100;
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*各个屏幕下的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important
+	}
+/*各个屏幕下的媒体查询到此结束*/

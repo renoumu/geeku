@@ -1,0 +1,346 @@
+/*设置最小和最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*标题栏样式*/
+.bar{
+	background-color: #f76706;
+}
+/*标题栏ICON样式*/
+.bar .icon{
+	color: #fff;
+}
+/*标题栏文字样式*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*联系人块区域样式*/
+.headcontent{
+	width: 100%;
+	background-color: #fff;
+	padding-bottom: 0.6rem;
+	border-bottom: 1px solid #e0dada;
+}
+/*图片样式*/
+img{
+	width: 100%;
+	margin-bottom: 0px;
+}
+/*p标签样式*/
+p{
+	margin:0px;
+}
+/*收货人和电话块样式*/
+.headnp{
+	width: 100%;
+	padding-left: 1.86rem;
+	height: 1rem;
+	text-align: center;
+}
+/*收货人样式*/
+.people{
+	float: left;
+	width: 20%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+}
+/*收货人样式*/
+.peoplename{
+	float: left;
+	width: 20%;
+	font-size: 0.68rem;
+	border: none;
+	font-family: "微软雅黑";
+}
+/*电话样式*/
+.phone{
+	float: left;
+	width: 13%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+}
+/*电话样式*/
+.phonenum{
+	float: left;
+	width: 35%;
+	font-size: 0.68rem;
+	border: none;
+	font-family: "微软雅黑";
+}
+/*收货地址样式*/
+.headaddress{
+	width: 100%;
+	padding-left: 0.68rem;
+	height: 1.04rem;
+	clear: both;
+	margin-top: 5px;
+}
+/*收货地址样式*/
+.dingdan2{
+	float: left;
+	width: 0.72rem;
+	height: 0.82rem;
+}
+/*收货地址样式*/
+.addressname{
+	float: left;
+	width: 20%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	margin-left: 0.6rem;
+	color: #aaa;
+	text-align: center;
+}
+/*收货地址样式*/
+.addresscontent{
+	float: left;
+	width: 35%;
+	font-size: 0.68rem;
+	border: none;
+	font-family: "微软雅黑";
+	color: #aaa;
+}
+/*配送块样式*/
+.product{
+	margin-top: 0.5rem;
+	width: 100%;
+	height: 9.7rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	text-align: center;
+	padding-left: 0.27rem;
+	padding-right: 0.27rem;
+	padding-top: 0.27rem;
+	padding-bottom: 0px;
+	background-color: #fff;
+}
+/*配送门店样式*/
+.store{
+	width: 98%;
+	height: 1.86rem;
+	border-bottom: 1px solid #e0dada;
+}
+/*配送门店样式*/
+.storename{
+	width: 20%;
+	float: left;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	line-height: 1.5rem;
+
+}
+/*配送门店样式*/
+.storecontent{
+	width: 46%;
+	float: left;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	border: none;
+	line-height: 1.5rem;
+}
+/*配送门店样式*/
+.dingdan3{
+	float: right;
+	width: 5.07rem;
+	height: 1.59rem;
+}
+/*产品块样式*/
+.productname{
+	width: 98%;
+	padding-top: 0.41rem;
+	padding-bottom: 0.41rem;
+	border-bottom: 1px solid #e0dada;
+	height: 3.54rem;
+}
+/*产品图片样式*/
+.productphoto{
+	height: 2.54rem;
+	width: 2.54rem;
+	float: left;
+}
+/*产品价格颜色区域样式*/
+.productcontent{
+	width: 83%;
+	float: left;
+}
+/*产品价格颜色区域样式*/
+.pc1{
+	width: 100%;
+}
+/*产品名称*/
+.pd1{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-left: 0.45rem;
+	font-size: 0.68rem;
+}
+/*价格*/
+.pd2{
+	width: 50%;
+	float: right;
+	text-align: right;
+	font-size: 0.68rem;
+	color: red;
+}
+/*颜色件数*/
+.pc2{
+	width: 100%;
+}
+/*颜色*/
+.pd3{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-left: 0.45rem;
+	font-size: 0.59rem;
+	line-height: 320%;
+	color: #aaa;
+}
+/*件数*/
+.pd4{
+	width: 50%;
+	float: right;
+	text-align: right;
+	font-size: 0.59rem;
+	line-height: 320%;
+	color: #aaa;
+}
+/*商品合计*/
+.goods{
+	margin-top: 0.5rem;
+	height: 6.34rem;
+	padding: 0.5rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	background-color: #fff;
+	width: 100%;
+}
+/*商品合计*/
+.goodsprice{
+	width: 100%;
+	height: 4.3rem;
+	border-bottom: 1px solid #e0dada;
+}
+/*商品合计*/
+.pricename{
+	width: 50%;
+	float: left;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	color: #aaa;
+}
+/*价格*/
+.pricecontent{
+	width: 50%;
+	float: right;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	text-align: right;
+	color: #aaa;
+}
+hr{
+	border-top: 1px solid #e0dada;
+}
+/*需付款*/
+.totalprice{
+	width: 100%;
+	line-height: 150%;
+}
+.totalprice p{
+	color: #000;
+}
+/*订单编号*/
+.ordertime{
+	width: 100%;
+	margin-top: 0.5rem;
+	height: 3.17rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	background-color: #fff;
+	padding: 0.5rem;
+}
+.ordernum{
+	width: 100%;
+}
+.ordernum p{
+	width: 20%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	float: left;
+}
+.ordernum input{
+	width: 50%;
+	font-size: 0.68rem;
+	float: left;
+	border: none;
+}
+/*提交时间*/
+.submittime{
+	width: 100%;
+	clear: both;
+}
+.submittime p{
+	width: 20%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	float: left;
+}
+.submittime input{
+	width: 50%;
+	font-size: 0.68rem;
+	float: left;
+	border: none;
+}
+/*nav块样式*/
+.page nav{
+	background-color:#fff;
+	border-top: 1px solid #e0dada;
+	padding: 0.45rem;
+}
+
+.page>.bar .tab-item{
+	position: absolute;
+	width: 95%;
+	text-align: right;
+}
+.cancelbtn{
+	right: 25%;
+}
+nav input{
+	border: 1px solid #e0dada;
+	border-radius: 3px;
+	font-size: 0.63rem;
+	padding:0.4rem 0.45rem 0.4rem 0.45rem;
+	background-color: #fff;
+}
+/*弹出框*/
+.actions-modal-group>.actions-modal-label{
+	font-size: .9rem;
+	color: #FFFFFF;
+	background: #0d85fe;
+}
+.actions-modal-group>.actions-modal-button{
+	font-size: .75rem;
+	color: #333;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

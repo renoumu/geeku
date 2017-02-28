@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>订单确认</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/ConfirmOrder.css" />
+    <link rel="stylesheet" href="css/sm.min.css" />
+    <link rel="stylesheet" href="css/sm-extend.min.css" />
+</head>
+<body>
+    <div class="page-group">
+        <div class="page">
+            <header class="bar bar-nav" style="background: #F60;">
+                <h1 class="title" style="color: #FFF;">订单详情</h1>
+                <a class="icon icon-left" style="color: #FFF;" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+            </header>
+
+            <nav class="bar bar-tab SubmitOrder clear" style="background: #FFF;">
+                <button class="Determine-Btn fr">确定签收</button>
+                <button class="LookOver-Btn fr">查看配送</button>
+                <button class="Cancel-Btn fr create-actions">取消订单</button>
+            </nav>
+
+            <div class="content">
+                <div class="RecipientInformationImg">
+                    <img src="image/img_订单成功banner@3x.png" alt="">
+                </div>
+                <div class="RecipientInformation clear">
+                    <div class="RecipientInformation-Left">
+                        <div class="ContactInformation clear">
+                            <div class="ContactInformation-Name fl">
+                                <div>收货人：<span>王小二</span></div>
+                            </div>
+                            <div class="ContactInformation-Phone fl">
+                                <div>电话：<span>13800138000</span></div>
+                            </div>
+                        </div>
+                        <div class="ShippingAddress">
+                            <div>收获地址：<span>广州市荔湾区中山大道5号</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ProductInformation">
+                    <div class="ProductInformation-Information">商品信息</div>
+                    <div class="DistributionStore">
+                        <div class="DeliveryStores">配送门店：<span>唐小姐的店</span></div>
+                        <div class="Product clear">
+                            <div class="Product-Icon fl">
+                                <div>
+                                    <img src="image/clothes.png" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="Product-Information fl">
+                                <div class="Product-Information-Up clear">
+                                    <div class="Information-Up-Name fl">产品名称</div>
+                                    <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                </div>
+                                <div class="Product-Information-Down clear">
+                                    <div class="Information-Down-Color fl">红色　XS</div>
+                                    <div class="Information-Down-Num fr">x1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Product clear">
+                            <div class="Product-Icon fl">
+                                <div>
+                                    <img src="image/clothes.png" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="Product-Information fl">
+                                <div class="Product-Information-Up clear">
+                                    <div class="Information-Up-Name fl">产品名称</div>
+                                    <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                </div>
+                                <div class="Product-Information-Down clear">
+                                    <div class="Information-Down-Color fl">红色　XS</div>
+                                    <div class="Information-Down-Num fr">x1</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Price">
+                    <div class="PriceCalculation">
+                        <div class="TotalMerchandise clear">
+                            <div class="fl">商品合计</div>
+                            <div class="fr">&yen;298.<span>00</span></div>
+                        </div>
+                        <div class="Shipment clear">
+                            <div class="fl">运　　费</div>
+                            <div class="fr">&yen;10.<span>00</span></div>
+                        </div>
+                        <div class="ShipmentRelief clear">
+                            <div class="fl">运费减免</div>
+                            <div class="fr">&yen;-10.<span>00</span></div>
+                        </div>
+                        <div class="PromotionsRelief clear">
+                            <div class="fl">优惠减免</div>
+                            <div class="fr">&yen;-10.<span>00</span></div>
+                        </div>
+                    </div>
+                    <div class="Payment clear">
+                        <div class="Payment-Font fl">需付款</div>
+                        <div class="Payment-Num fr">&yen;288.<span>00</span></div>
+                    </div>
+                </div>
+
+                <div class="Price">
+                    <div class="PriceCalculation">
+                        <div class="TotalMerchandise clear">
+                            <div class="fl">订单编号：</div>
+                            <div class="fl">201508301111</div>
+                        </div>
+                        <div class="Shipment clear">
+                            <div class="fl">支付宝交易号：</div>
+                            <div class="fl">201607012100100134123421985</div>
+                        </div>
+                        <div class="ShipmentRelief clear">
+                            <div class="fl">提交时间：</div>
+                            <div class="fl">2016-7-01 15:30</div>
+                        </div>
+                        <div class="PromotionsRelief clear">
+                            <div class="fl">付款时间：</div>
+                            <div class="fl">2016-7-01 15:30</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/sm-extend.min.js"></script>
+	<script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/ConfirmOrder.js"></script>
+</html>

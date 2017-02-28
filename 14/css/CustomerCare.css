@@ -1,0 +1,61 @@
+/*最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+
+/*输入框样式*/
+.bar-tab>input{
+	width: 80%;
+	height: 1.449rem;
+	margin-top: .452rem;
+	margin-left: .724rem;
+	border: .045rem solid #CCC;
+	border-radius: .226rem;
+}
+
+/*发送按钮样式*/
+.bar-tab>button{
+	width: 13%;
+	height: 1.449rem;
+	border: none;
+	background: #2196F3;
+	color: #FFF;
+	font-size: .6rem;
+	border-radius: .245rem;
+
+}
+
+/*会话内容*/
+.Flwidth,.Frwidth{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

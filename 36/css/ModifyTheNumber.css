@@ -1,0 +1,88 @@
+/*设置标题栏的背景颜色*/
+.bar{
+	background-color: #f76706;
+}
+/*设置标题栏icon的颜色*/
+.bar .icon{
+	color: #fff;
+}
+/*设置标签栏字体的颜色*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.content{
+	padding: 0.5rem;
+	background-color: #fff;
+}
+/*设置最小宽度与最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置P标签的外边距*/
+p{
+	margin: 0px;
+}
+/*输入电话号码的父级样式*/
+.ModifyTheNumber{
+	border-bottom: .5px solid #00f;
+	width: 100%;
+	height: 1.15rem;
+}
+/*输入号码input样式*/
+.ModifyTheNumber-name{
+	border:none;
+	font-size: 0.68rem;
+	width: 93%;
+	background-color: #fff;
+	float: left;
+}
+/*点击重新输入样式*/
+.ModifyTheNumber-img{
+	width: 0.77rem;
+	height: 0.77rem;
+	float: left;
+	visibility: hidden;
+}
+
+.ModifyTheNumber-prompt{
+	padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+	width: 100%;
+	color: #aaa;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+}
+/*保存按钮样式*/
+.ModifyTheNumber-savebtn{
+	margin-top: 8.56rem;
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	height: 2.17rem;
+	font-family: "微软雅黑";
+	font-size: 0.77rem;
+	background-color: #aaa;
+	color: #fff;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

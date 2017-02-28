@@ -1,0 +1,147 @@
+/*设置最小与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*修改标题栏颜色和字体*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*联系人和联系电话div样式*/
+.npcontent{
+	width: 100%;
+	margin-top: 0.45rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	background-color: #fff;
+}
+/*联系人样式*/
+.namecontent{
+	height: 2.13rem;
+	width: 100%;
+	padding: 0.45rem;
+	border-bottom: 1px solid #e0dada;
+}
+/*联系input样式*/
+.namecontent input{
+	width: 93%;
+	font-size: 0.72rem;
+	border: none;
+	font-family: "微软雅黑";
+	float: left;
+}
+/*联系div样式*/
+.namecontent div{
+	top: 10%;
+	width: 0.79rem;
+	height: 0.79rem;
+	float: left;
+}
+.namecontent #delbtn1{
+	width: 0.79rem;
+	height: 0.79rem;
+	visibility: hidden;
+}
+/*联系电话样式*/
+.phonecontent{
+	height: 2.13rem;
+	width: 100%;
+	padding: 0.45rem;
+}
+/*联系电话input样式*/
+.phonecontent input{
+	width: 93%;
+	font-size: 0.72rem;
+	border: none;
+	font-family: "微软雅黑";
+	float: left;
+}
+/*联系电话div样式*/
+.phonecontent div{
+	top: 10%;
+	width: 0.79rem;
+	height: 0.79rem;
+	float: left;
+}
+.phonecontent #delbtn2{
+	width: 0.79rem;
+	height: 0.79rem;
+	visibility: hidden;
+}
+/*地址样式*/
+.addresscontent{
+	margin-top: 0.45rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	width: 100%;
+	padding: 0.45rem;
+	height: 4.3rem;
+	background-color: #fff;
+}
+/*地址输入样式*/
+.addresscontent textarea{
+	width: 93%;
+	font-size: 0.72rem;
+	border: none;
+	height: 100%;
+	font-family: "微软雅黑";
+	margin: 0px;
+	float: left;
+}
+/*地址DIV样式*/
+.addresscontent div{
+	float: left;
+	top: -70%;
+	width: 0.79rem;
+	height: 0.79rem;
+}
+.addresscontent #delbtn3{
+	width: 0.79rem;
+	height: 0.79rem;
+	visibility: hidden;
+}
+/*保存按钮样式*/
+.save{
+	width: 100%;
+	text-align: center;
+	margin-top: 2.4rem;
+	padding-left: 0.41rem;
+	padding-right: 0.41rem;
+}
+/*按钮样式*/
+.savebtn{
+	width: 100%;
+	border: none;
+	background-color: #f76706;
+	border-radius: 3px;
+	font-size: 0.72rem;
+	color: #fff;
+	font-family: "微软雅黑";
+	padding-top: 0.42rem;
+	padding-bottom: 0.42rem;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

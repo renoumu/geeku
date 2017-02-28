@@ -1,0 +1,141 @@
+/*标题栏背景颜色样式*/
+.bar{
+	background-color: #f76706;
+}
+/*标题栏ICON颜色样式*/
+.bar .icon{
+	color: #fff;
+}
+/*标题栏文字颜色样式*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置最小与最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置P标签外边距*/
+p{
+	margin:0px;
+}
+/*优惠卷块样式*/
+.Coupons{ 
+	overflow: hidden;
+	margin:0.5rem 0px 0px 0px;
+	padding: 0px;
+	border-top: 1px solid #e0dada;
+	position: relative;
+}
+/*优惠卷块样式*/
+.Coupons-message{ 
+	height: 3.89rem;
+	border-bottom: 1px solid #e0dada;
+	position:relative;
+	padding-left:0.5rem; 
+	color: #666;
+    background: #f2f2f2;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    width: 100%;
+    background-color: #fff;
+}
+/*优惠卷块样式*/
+.Coupons-allmessage{
+	width: 100%;
+	border-bottom: 1px solid #e0dada;
+	height: 3.89rem;
+}
+/*优惠卷块样式*/
+.Coupons-photo{
+	width: 2.54rem;
+	height: 2.54rem;
+	margin-top: 0.65rem;
+	float: left;
+}
+/*优惠卷内容样式*/
+.Coupons-content{
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 0.4rem;
+	width: 58%;
+}
+/*商店名称样式*/
+.Coupons-name{
+	font-size: 0.76rem;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+/*优惠卷事件样式*/
+.Coupons-date{
+	font-size: 0.58rem;
+	margin-top: 0.4rem;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+/*优惠卷图片样式*/
+.Coupons-img{
+	float: left;
+	height: 3rem;
+	margin-top: 0.4rem;
+}
+.Coupons-imgcontent{
+	width: 4rem;
+	height: 3rem;
+}
+.Coupons-img2{
+	float: left;
+	height: 3rem;
+	margin-top: 0.4rem;
+}
+/*失效优惠卷样式*/
+.Coupons-imgcontent2{
+	width: 4.2rem;
+	height: 3.2rem;
+}
+/*删除按钮样式*/
+.Coupons-delbtn{ 
+	position: absolute; 
+	top: 0; 
+	right: -3.5rem; 
+	text-align: center; 
+	background: #f00; 
+	height: 3.89rem;
+	color: #fff; 
+	width: 3.5rem;
+	line-height: 3.8rem;
+}
+/*中间那一栏显示失效的样式*/
+.Coupons-dividingline{
+	margin-top: 0.5rem;
+	text-align: center;
+	color: #aaa;
+}
+
+.Coupons-dividingline>p{
+	font-size: 0.76rem;
+	font-family: "微软雅黑";
+}
+
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

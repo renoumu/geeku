@@ -1,0 +1,163 @@
+/*设置最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*设置轮播图的样式*/
+.content>.swiper-container{
+	padding-bottom: 0;
+}
+.content>.swiper-container img{
+	width: 100%;
+}
+/*栅格栏导航的样式*/
+.IndexNav{
+	width: 100%;
+	height: 8.02rem;
+	background-color: #FFF;
+}
+.IndexNav>ul>li{
+	width: 33.33%;
+	height: 4.030rem;
+	text-align: center;
+	font-size: .634rem;
+	border: .05rem solid #efefef;
+	box-sizing: border-box;
+}
+.IndexNav>ul>li>img{
+	width: 36.23%;
+	margin-top: .543rem;
+}
+/*品牌活动专场*/
+.IndexActivity{
+	width: 100%;
+	height: 11.322rem;
+}
+.ActivityTitle{
+	width: 100%;
+	height: 1.8rem;
+	font-size: .8rem;
+}
+.ActivityTitle>img{
+	width: 5%;
+	margin: .38rem .1rem .5rem .6rem;
+}
+.ActivityTitle>span{
+	line-height: 1.8rem; 
+}
+.pull-right{
+	margin-right: .7rem;
+	line-height: 1.7rem;
+	font-size: .6rem;
+	color: #9b9b9b;
+}
+/*活动内容*/
+.IndexActivity>.ActivityCon{
+	width: 100%;
+	height: 9.55rem;
+	background-color: #ffffff;
+}
+.IndexActivity>.ActivityCon img{
+	width: 100%;
+	height: 100%;
+}
+.IndexActivity>.ActivityCon>li{
+	width: 50%;
+	height: 9.55rem;
+}
+.IndexActivity>.ActivityCon>.Left>div{
+	width: 100%;
+	height: 4.52rem;
+}
+.IndexActivity>.ActivityCon>.Left{
+	padding-top: .452rem;
+	padding-left: .452rem;
+	padding-right: .452rem; 
+}
+.IndexActivity>.ActivityCon>.Left>div>.ActivityImg{
+	width: 100%;
+	height: 2.989rem;
+	background-color: #CCC;
+}
+.IndexActivity>.ActivityCon>.Right{
+	padding-top: .452rem;
+}
+.IndexActivity>.ActivityCon>.Right>div{
+	width: 95%;
+	height: 7.52rem;
+	background-color: #CCC;
+}
+.IndexActivity>.ActivityCon p{
+	font-size: .588rem;
+	padding-top: .362rem;
+}
+/*热卖商品*/
+.IndexActivity>.Hot{
+	width: 100%;
+	height: 13.269rem;
+	background-color: #FFFFFF;
+}
+.Hot>.HotCon{
+	width: 100%;
+	height: 11.413rem;
+	background-color: #FFF;
+	padding: .5rem;
+	margin-bottom: .5rem;
+}
+/*栅格栏样式*/
+._col{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+/*栅格栏样式*/
+._col .col-left,._col .col-right{
+	width: 48.6%;
+	height: 10.41rem;
+	background: #FFF;
+	border: #eeeded .045rem solid;
+	box-sizing: border-box;
+}
+/*产品图片样式*/
+.Show-pictures{
+	width: 100%;
+	height: 7.97rem;
+	position: relative;
+}
+/*价格区域样式*/
+.product-price{
+	width: 100%;
+}
+/*价格区域样式*/
+.product-price p,.product-price div{
+	margin: .15rem;
+}
+/*价格区域样式*/
+.product-price div span:nth-child(1){
+	font-size: .63rem;
+	color: #ff3131;
+	line-height: 1rem;
+	font-weight: bold;
+}
+/*价格区域样式*/
+.product-price div span:nth-child(2){
+	font-size: .45rem;
+	line-height: 1rem;
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

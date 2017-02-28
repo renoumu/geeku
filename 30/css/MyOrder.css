@@ -1,0 +1,211 @@
+/* 命名方式
+* 未付款   ----- Unpaid
+* 等待收货 ----- WaitForTheReceipt
+* 交易完成 ----- TransactionComplete
+* 退款成功 ----- RefundSuccess
+*/
+
+/*最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+
+/*头部 - 全部、待付款、待发货、待评价、退货/退款：样式修改*/
+.MyOrder>.buttons-tab>.button{
+	color: #999;
+}
+.MyOrder>.buttons-tab>.button.active{
+	color: #000000;
+    border-color: #F60;
+}
+
+/*--------------未付款 -- Unpaid ------------------*/
+
+/*订单编号*/
+.ProductInformation{
+	width: 100%;
+	background: #FFF;
+	margin-top: .452rem;
+}
+/*滑动删除设置超出隐藏*/
+.DistributionStore{
+	overflow: hidden;
+}
+
+/*订单编号处的样式*/
+.DistributionStore>.DeliveryStores{
+	width: 100%;
+	height: 2.173rem;
+	line-height: 2.173rem;
+	border-bottom: .045rem solid #CCC;
+	font-size: .679rem;
+	font-weight: 500;
+	padding: 0px .452rem;
+}
+
+/*产品块*/
+.Product{
+	width: 100%;
+	padding: 0px .452rem;
+	border-bottom: .045rem solid #CCC;
+	border-top: .045rem solid #CCC;
+	background: #FAFAFA;
+	margin-bottom: .15rem;
+	position: relative;
+	-webkit-transform: translateX(0px);
+}
+
+/*滑动删除样式*/
+.DeleteSlide{
+	width: 6.974rem;
+	height: 3.577rem;
+	position: absolute;
+	top: 0;
+	right: -6.974rem;
+}
+/*滑动删除按钮和取消订单样式*/
+.DeleteSlide>.Cancel,.DeleteSlide>.Delete{
+	width: 50%;
+	height: 3.577rem;
+	text-align: center;
+	font-size: .643rem;
+	color: #FFF;
+	box-sizing: border-box;
+}
+
+/*取消订单样式*/
+.DeleteSlide>.Cancel{
+	padding-top: .8rem;
+	border: .045rem solid #AAA;
+	background: #BBB;
+}
+
+/*删除按钮样式*/
+.DeleteSlide>.Delete{
+	line-height: 3.396rem;
+	border: .045rem solid #F00;
+	background: #F22;
+}
+
+/*单独一个删除按钮样式*/
+.Product>.Delete{
+	width: 3.532rem;
+	line-height: 3.577rem;
+	position: absolute;
+	top: 0;
+	right: -3.555rem;
+	text-align: center;
+	font-size: .643rem;
+	color: #FFF;
+	box-sizing: border-box;
+	background: #F22;
+}
+
+/*产品图标样式*/
+.Product>.Product-Icon{
+	width: 18.6%;
+}
+
+/*产品图片DIV样式*/
+.Product>.Product-Icon>div{
+	width: 2.6rem;
+	height: 2.6rem;
+	margin: .452rem 0px;
+}
+
+/*产品名字和价格件数样式*/
+.Product-Information{
+	width: 81.4%;
+}
+
+/*产品名称样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Name{
+	font-size: .679rem;
+	font-weight: 500;
+	margin-top: .588rem;
+}
+
+/*产品价格样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Yen{
+	margin-top: .588rem;
+	font-size: .679rem;
+	font-weight: 500;
+	color: #F33;
+}
+
+/*产品颜色样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Yen>span{
+	font-size: .488rem;
+}
+
+/*产品件数样式*/
+.Product-Information-Down>.Information-Down-Color{
+	margin-top: .679rem;
+	font-size: .498rem;
+	font-weight: 500;
+	color: #CCC;
+}
+.Product-Information-Down>.Information-Down-Num{
+	margin-top: .679rem;
+	font-size: .679rem;
+	font-weight: 500;
+}
+.Unpaid .DeliveryStores>.UnpaidNo{
+	color: #19A1EE;
+}
+
+/*总金额样式*/
+.DistributionStore>.Order{
+	width: 100%;
+	height: 2.173rem;
+	padding: 0px .452rem;
+}
+.DistributionStore>.Order>div{
+	line-height: 2.173rem;
+	font-size: .543rem;
+	letter-spacing: 2px;
+}
+.DistributionStore>.Order>div>span{
+	color: #F33;
+}
+
+/*总金额按钮样式*/
+.DistributionStore>.Order>.Order-Btn{
+	width: 3.849rem;
+	height: 1.585rem;
+	margin-top: .226rem;
+	font-size: .643rem; 
+	background: #FFF;
+	border: .045rem solid #CCC;
+	box-sizing: border-box;
+}
+
+/*右边未付款，待收货样式*/
+.WaitForTheReceipt .DeliveryStores>.UnpaidNo,.RefundSuccess .DeliveryStores>.UnpaidNo{
+	color: #FE0F0F;
+}
+.TransactionComplete .DeliveryStores>.UnpaidNo{
+	color: #C3C3C3;
+}
+/*--------------未付款 -- Unpaid The End------------------*/
+
+
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

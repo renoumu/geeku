@@ -1,0 +1,56 @@
+/*设置标题栏样式*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置屏幕最小宽度和最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*清除p标签的默认外边距*/
+p{
+	margin: 0px;
+}
+/*设置内容部分的背景颜色*/
+.content{
+	background-color: #fff;
+}
+/*设置承载文本内容的div样式*/
+.AboutUs-content{
+	padding: 0.5rem;
+	width: 100%;
+}
+/*设置div里的文本样式*/
+.AboutUs-content>p{
+	font-size: 0.72rem;
+	text-indent:2em;
+	font-family: "微软雅黑";
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

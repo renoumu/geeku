@@ -1,0 +1,78 @@
+/*z最小宽度与最带宽度*/
+body{min-width:320px;max-width: 640px;}
+
+/*评论区域样式*/
+.content{
+	background: #FFF;
+	margin-top: .90rem;
+}
+/*评论区域*/
+.Review-Evaluation{
+	height: 1.81rem;
+	font-size: .86rem;
+	font-weight: 600;
+	line-height: 1.81rem;
+	border: .04rem solid #ccc;
+	border-left: none;
+	border-right: none;
+	padding: 0 1.81rem;
+	background: url(../image/2.png) .6rem no-repeat;
+    background-size: 5%;
+}
+
+/*评论快样式*/
+.Review-Con{
+	width: 100%;
+	border-bottom: .04rem solid #ccc
+}
+/*评论头像样式*/
+.Review-Con .Review-Con-left{
+	width: 2.49rem;
+	height: 2.49rem;
+	margin: .498rem;
+} 
+/*评论名字样式*/
+.Review-Con-name{
+	width: 78%;
+}
+/*评论名字样式*/
+.Review-Con .Review-Con-name div:nth-child(1){
+	font-size: .72rem;
+	font-weight: 600;
+	margin-top: .67rem;
+}
+/*评论名字样式*/
+.Review-Con .Review-Con-name div:nth-child(2){
+	font-size: .45rem;
+	font-weight: 600;
+	color: #aaa;
+	margin-top: .8rem;
+}
+/*评论内容样式*/
+.Review-Con-Evaluation{
+	width: 78%;
+	font-size: .58rem;
+	font-weight: 600;
+	color: #aaa;
+	margin-top: .5rem;
+	white-space: nowrap;
+}
+/*评论区域结束*/
+
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}

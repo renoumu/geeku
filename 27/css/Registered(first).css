@@ -1,0 +1,137 @@
+/*设置标题栏的颜色*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置最小与最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置P标签的外边据*/
+p{
+	margin: 0px;
+}
+/*LOGO的样式*/
+.Registered-titleimage{
+	width: 100%;
+	height: 6.97rem;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1.85rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+}
+/*设置手机输入块的样式*/
+.Registered-telephone{
+	width: 100%;
+	height: 2.18rem;
+	margin-top: 0.45rem;
+	background-color: #fff;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+/*+86的样式*/
+.Registered-phone{
+	float: left;
+	margin-top: 0.48rem;
+}
+/*填写手机号码的样式*/
+.Registered-phonenum{
+	float: left;
+	margin-top: 0.48rem;
+	margin-left: 1.58rem;
+	width: 70%;
+}
+/*填写手机号码的输入框样式*/
+.Registered-phonenum>input{
+	width:100%;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 0.81rem;
+}
+/*点击重新输入样式*/
+.Registered-delbtn{
+	float: right;
+	width: 0.82rem;
+	height: 0.82rem;
+	margin-top: 0.54rem;
+}
+/*点击重新输入样式*/
+.Registered-delbtn>img{
+	width: 0.81rem;
+	height: 0.81rem;
+	visibility: hidden;
+}
+/*点击下一步按钮的样式*/
+.Registered-nextbtn{
+	width: 100%;
+	text-align: center;
+	margin-top: 2.53rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+/*下一步按钮样式*/
+.Registered-nextbtn>button{
+	height: 2.17rem;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	background-color: #aaa;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.Registered-argeebtn{
+	margin-top: 0.86rem;
+	width: 100%;
+	text-align: center;
+	
+}
+/*服务条款的样式*/
+.Registered-argee{
+	width: 1.4rem;
+	height: 1.4rem;
+	float: left;
+	margin-left: 4.16rem;
+}
+/*单选框样式*/
+.Registered-argee>img{
+	width: 1.4rem;
+	height: 1.4rem;
+	vertical-align: middle;
+}
+.Registered-text{
+	font-size: 0.86rem;
+	float: left;
+	margin-left: 0.63rem;
+	line-height: 1.55rem;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/orderdetails.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">订单详情</h1>
+			</header>
+			<section class="content">
+				<div class="headcontent">
+					<img class="dingdan1" src="img/dingdan1.jpg">
+					<div class="headnp">
+						<p class="people">收货人:</p>
+						<input type="text" class="peoplename"></input>
+						<p class="phone">电话:</p>
+						<input type="text" class="phonenum"></input>
+					</div>
+					<div class="headaddress">
+						<img class="dingdan2" src="img/dingdan2.jpg">
+						<p class="addressname">收货地址:</p>
+						<input type="text" class="addresscontent"></input>
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="store">
+						<p class="storename">配送门店:</p>
+						<input type="text" class="storecontent"></input>
+						<img src="img/dingdan3.jpg" class="dingdan3">
+					</div>
+					<div class="productname">
+						<div class="productphoto">
+							<img src="img/clothes.png" alt="">
+						</div>
+						<div class="productcontent">
+							<div class="pc1">
+								<p class="pd1">产品名称</p>
+								<p class="pd2">￥149.00</p>
+							</div>
+							<div class="pc2">
+								<p class="pd3">红色 XS</p>
+								<p class="pd4">x1</p>
+							</div>
+						</div>
+					</div>
+					<div class="productname">
+						<div class="productphoto">
+							<img src="img/clothes.png" alt="">
+						</div>
+						<div class="productcontent">
+							<div class="pc1">
+								<p class="pd1">产品名称</p>
+								<p class="pd2">￥149.00</p>
+							</div>
+							<div class="pc2">
+								<p class="pd3">红色 XS</p>
+								<p class="pd4">x1</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goodsprice">
+							<p class="pricename">商品合计</p>
+							<p class="pricecontent">￥298.00</p>
+							<p class="pricename">运    费</p>
+							<p class="pricecontent">￥10.00</p>
+							<p class="pricename">运费减免</p>
+							<p class="pricecontent">￥-10.00</p>
+							<p class="pricename">优惠减免</p>
+							<p class="pricecontent">￥-10.00</p>
+					</div>
+					<div class="totalprice">
+						<p class="pricename">需付款</p>
+						<p class="pricecontent">￥288.00</p>
+					</div>
+				</div>
+
+				<div class="ordertime">
+					<div class="ordernum">
+						<p>订单编号:</p>
+						<input type="text"></input>
+					</div>
+					<div class="submittime">
+						<p>提交时间:</p>
+						<input type="text"></input>
+					</div>
+				</div>
+			</section>
+			<nav class="bar bar-tab">
+				<a class="tab-item external buybtn" href="../8/index.html">
+                    <input class="tab-label"  type="button" value="马上付款" />
+                </a>
+				<a class="tab-item external cancelbtn" href="#">
+                    <input class="tab-label"  type="button" value="取消订单" />
+                </a>
+			</nav>
+        </div>
+    </div>
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-extend.min.js'charset='utf-8'></script>
+    <script type="text/javascript" src="js/ConfirmOrder.js"></script>
+    <script type="text/javascript">
+    	$('.dingdan3').on('click',function(event){
+    		window.location.href = "../14/index.html"
+    	})
+    	$('.productname').on('click',function(event){
+    		window.location.href = "../34/index.html"
+    	});
+    </script>
+</body>
+</html>

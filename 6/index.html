@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/manaddress.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">地址管理</h1>
+			</header>
+			<section class="content">
+				<div class="address">
+					<div class="addresscontent">
+						<p class="peoplename">收货人名</p>
+						<p class="peoplephone">136XXXXXXXX</p>
+						<p class="peopleaddress">收货地址xxxxxxxxxxxxxxxxxxx</p>
+					</div>
+					<div class="alteraddress">
+						<input type="checkbox" class="check"></input>
+						<p class="altername">设为默认地址</p>
+						<button class="delbtn">删除</button>
+						<button class="altbtn">编辑</button>
+					</div>
+				</div>
+				<div class="address">
+					<div class="addresscontent">
+						<p class="peoplename">收货人名</p>
+						<p class="peoplephone">136XXXXXXXX</p>
+						<p class="peopleaddress">收货地址xxxxxxxxxxxxxxxxxxx</p>
+					</div>
+					<div class="alteraddress">
+						<input type="checkbox" class="check"></input>
+						<p class="altername">设为默认地址</p>
+						<button class="delbtn">删除</button>
+						<button class="altbtn">编辑</button>
+					</div>
+				</div>
+				<div class="address">
+					<div class="addresscontent">
+						<p class="peoplename">收货人名</p>
+						<p class="peoplephone">136XXXXXXXX</p>
+						<p class="peopleaddress">收货地址xxxxxxxxxxxxxxxxxxx</p>
+					</div>
+					<div class="alteraddress">
+						<input type="checkbox" class="check"></input>
+						<p class="altername">设为默认地址</p>
+						<button class="delbtn">删除</button>
+						<button class="altbtn">编辑</button>
+					</div>
+				</div>
+			</section>
+			<nav class="bar bar-tab">
+				<a class="tab-item external" href="#">
+                    <input class="tab-label"  type="button" value="添加地址" />
+                </a>
+			</nav>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    	$('.tab-label').on('click',function(){
+    		window.location.href = "../39/index.html"
+    	});
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GeekU让极客和极客精神遍布中国</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ProductSelection.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<div class="mask">
+                <img src="image/top.png" alt="" style="width: 100%;">   
+            </div>
+        	<div class="selects">
+        		<div class="selects-name">
+                    <a class="icon icon-refresh pull-right" style="margin: .8rem;color: black;" href="../34/index.html"></a>
+        			<div class="selects-name-left">
+                        <img src="image/Sp.png" alt="" style="width: 100%;">         
+                    </div>
+        			<div class="selects-name-middle">
+        				<div class="selects-name-detail">
+        					<div>&#165;149.<span>00</span></div>
+        					<div>产品名称</div>
+        					<div>库存30件</div>
+        					<div>请选择 颜色 尺寸</div>
+        				</div>
+        			</div>
+        			<div class="selects-name-right"></div>
+        		</div>
+        	</div>
+        	<div class="selectCon">
+        		<div class="color">
+        			<div>颜色</div>
+        			<ul class="clear">
+	        			<li>红色</li>
+	        			<li>黄色</li>
+	        			<li>蓝色</li>
+        			</ul>
+        		</div>
+	        	<div class="Size">
+	        		<div>尺寸</div>
+	        		<ul>
+	        			<li>XS</li>
+	        			<li>S</li>
+	        			<li>M</li>
+	        			<li>L</li>
+	        			<li>XL</li>
+	        			<li>XXL</li>
+	        		</ul>
+	        	</div>
+	        	<div class="Quantity clear">
+					<div class="fl">购买数量</div>
+					<ul class="fr clear">
+						<li class="less">-</li>
+						<li class="txt">0</li>
+						<li class="plus">+</li>
+					</ul>
+	        	</div>
+        	</div>
+        	<div class="content-block">
+        		<p><a href="../22/index.html" class="button button-big">确　定</a></p>
+        	</div>
+        </div>
+	</div>
+</body>
+<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+<script>
+	$.init();
+    $('.color>ul').children('li').on('click',function(event){
+        $(this).css({
+            background: '#19a1ee',
+            color: '#FFF'
+        }).siblings().css({
+            background: '',
+            color: ''
+        });
+    })
+    $('.Size>ul').children('li').on('click',function(event){
+        $(this).css({
+            background: '#19a1ee',
+            color: '#FFF'
+        }).siblings().css({
+            background: '',
+            color: ''
+        });
+    })
+    var Num = 0;
+    $('.less').on('click',function(event){
+        Num--;
+        if(Num >=0){
+            $('.txt').text(Num);
+        }
+    })
+    $('.plus').on('click',function(event){
+        Num++;
+        $('.txt').text(Num);
+    })
+</script>
+</html>

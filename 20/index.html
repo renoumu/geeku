@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/feedback.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">评价</h1>
+			</header>
+			<section class="content">
+				<div class="clear">
+					<p class="fl">星级：</p>
+					<ul class="clear fl">
+						<li class="fl"><img src="img/icon_星星_normal@3x.png" alt=""></li>
+						<li class="fl"><img src="img/icon_星星_normal@3x.png" alt=""></li>
+						<li class="fl"><img src="img/icon_星星_normal@3x.png" alt=""></li>
+						<li class="fl"><img src="img/icon_星星_normal@3x.png" alt=""></li>
+						<li class="fl"><img src="img/icon_星星_normal@3x.png" alt=""></li>
+					</ul>
+				</div>
+				<p>评价说明</p>
+				<div class="head">
+					<textarea class="textcontent" id="textcontent" placeholder="请尽情对商品进行评价吧，不小于20个字符。" maxlength="1000" onkeyup="zfcount()" onpropertychange="if (value.length>10) value=value.substring(0,1000)"></textarea>
+				</div>
+				<div class="count">
+					<div class="showp">
+						<input type="text" id="showcount2" value="/1000" lang="4" disabled="true" />
+					</div>	
+			   		<div class="show">
+			    		<input type="text" id="showcount" value="0" lang="4" disabled="true" />
+			    	</div >
+				</div>
+				<div class="submit" id="submit">
+					<button class="subbtn" id="subbtn" disabled="true">提交申请</button>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+    <script type="text/javascript" src="js/feedback.js"></script>
+</body>
+</html>

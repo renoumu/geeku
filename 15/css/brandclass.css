@@ -1,0 +1,79 @@
+body{min-width: 320px;max-width: 640px;}
+/*设置标题样式*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置内容的背景颜色*/
+.content{
+	background-color: #fff;
+}
+/*把p标签的mg设置为0*/
+p{
+	margin: 0px;
+}
+/*设置品买热卖的样式*/
+.headcontent{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 1.72rem;
+	margin-bottom: 0.45rem;
+}
+.brandsale{
+	margin-left: 0.54rem;
+	padding-top: 0.31rem;
+	font-size: 0.78rem;
+	line-height: 10px;
+	font-family: "微软雅黑";
+}
+/*设置品牌内容的样式*/
+.bodycontent{
+	height: 4.71rem;
+	text-align: center;
+}
+.brandhead{
+	width: 100%;
+	text-align: center;
+	height: 2.9rem;
+}
+.brandphoto{
+	width: 3.94rem;
+	height: 2.9rem;
+	border: 1px solid #e0dada;
+}
+.brandname{
+	font-size: 0.68rem;
+	line-height: 255%;
+	font-family: "微软雅黑";
+}
+.content>.buttons-tab .button.active{
+	color: #F76706;
+    border-color: #F76706;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

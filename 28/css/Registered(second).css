@@ -1,0 +1,172 @@
+/*设置标题颜色样式*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置屏幕最大最小宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*清除框架默认的p标签外边距*/
+p{
+	margin: 0px;
+}
+/*设置注册页面的标题图片*/
+.Registered-titleimage{
+	width: 100%;
+	height: 6.97rem;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1.85rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+}
+/*验证码div的样式设置*/
+.Registered-telephone{
+	width: 100%;
+	height: 2.18rem;
+	margin-top: 0.45rem;
+	background-color: #fff;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.Registered-code{
+	float: left;
+	margin-top: 0.48rem;
+	font-family: "微软雅黑";
+}
+/*验证码文本框样式设置*/
+.Registered-phonenum{
+	float: left;
+	margin-top: 0.48rem;
+	margin-left: 1.58rem;
+	width: 40%;
+}
+.Registered-phonenum>input{
+	width:100%;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 0.81rem;
+}
+/*验证码删除按钮样式*/
+.Registered-delbtn{
+	float: right;
+	width: 0.82rem;
+	height: 0.82rem;
+	margin-top: 0.54rem;
+	visibility: hidden;
+}
+.Registered-delbtn>img{
+	width: 0.81rem;
+	height: 0.81rem;
+}
+/*验证码获取按钮样式*/
+.Registered-getntn{
+	float: right;
+	margin-left: 0.8rem;
+	margin-top: 0.4rem;
+	font-family: "微软雅黑";
+	font-size: 0.81rem;
+}
+.Registered-getntn>input{
+	height: 1.37rem;
+	width: 4.2rem;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #0d85fe;
+}
+/*新密码div的样式设置*/
+.Registered-password{
+	width: 100%;
+	height: 2.18rem;
+	background-color: #fff;
+	border-bottom: 1px solid #e0dada;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.Registered-pass{
+	float: left;
+	margin-top: 0.48rem;
+	font-family: "微软雅黑";
+}
+.Registered-phonenum2{
+	float: left;
+	margin-top: 0.48rem;
+	margin-left: 1.58rem;
+	width: 60%;
+}
+.Registered-phonenum2>input{
+	width:100%;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 0.81rem;
+}
+/*密码可视按钮的样式*/
+.seepass{
+	float: right;
+	margin-top: 0.54rem;
+}
+#seebtn3{
+	font-family: "微软雅黑";
+	font-size: 0.6rem;
+	height: 1.1rem;
+	width: 1.2rem;
+	border:none;
+}
+/*获取验证码时候的提示文本样式*/
+.Registered-prompt{
+	padding-left: 0.5rem;
+	font-size: 0.75rem;
+	font-family: "微软雅黑";
+	margin-top: 0.36rem;
+	color: #aaa;
+	visibility: hidden;
+}
+/*完成按钮的样式*/
+.Registered-finbtn{
+	width: 100%;
+	text-align: center;
+	margin-top: 1.26rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.Registered-finbtn>button{
+	height: 2.17rem;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	background-color: #aaa;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

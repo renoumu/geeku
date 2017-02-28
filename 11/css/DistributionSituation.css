@@ -1,0 +1,45 @@
+/*设置标题栏样式*/
+.bar{
+	background-color: #f76706;
+}
+.bar .icon{
+	color: #fff;
+}
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置屏幕最小宽度和最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置承载图片的div样式*/
+.DistributionSituation-content{
+	width: 100%;
+}
+/*设置图片的样式*/
+.DistributionSituation-image{
+	width: 100%;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

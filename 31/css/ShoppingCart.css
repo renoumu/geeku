@@ -1,0 +1,186 @@
+/*最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+
+/*我的购物车产品父级块*/
+.MyShoppingCart{
+	width: 100%;
+	margin-top: .588rem;
+	padding-bottom: .588rem;
+	border: .045rem solid #CCC;
+	box-sizing: border-box;
+	background: #FFF;
+	
+}
+
+/*店铺名称*/
+.ShopTitle{
+	width: 100%;
+	height: 2.173rem;
+	line-height: 2.173rem;
+	padding: 0px .724rem;
+}
+/*店铺名称样式*/
+.ShopTitle>ul{
+	border-bottom: .045rem solid #BBB;
+}
+
+/*选项图标*/
+.ShopTitle-List>img{
+	width: 1.2rem;
+	height: 1.2rem;
+	vertical-align: middle;
+	margin-right: .521rem;
+}
+
+/*产品样式*/
+.ShopName{
+	width: 100%;
+	height: 3.487rem;
+	padding: 0px .724rem;
+}
+/*产品样式*/
+.ShopName>ul{
+	height: 3.487rem;
+	border-bottom: .045rem solid #BBB;
+}
+/*产品样式*/
+.ShopName>ul>.ShopTitle-List{
+	width: 9%;
+	height: 3.487rem;
+}
+/*产品图片样式*/
+.ShopName>ul>.ShopTitle-Img{
+	width: 16.4%;
+	height: 3.487rem;
+}
+/*产品图片样式*/
+.ShopName>ul>.ShopTitle-Img>div{
+	width: 2.536rem;
+	height: 2.536rem;
+	margin-top: .679rem;
+}
+/*产品名称区域样式*/
+.ShopName>ul>.ShopTitle-Product{
+	width: 22.2%;
+	height: 3.487rem;
+	padding-top: .679rem;
+	padding-left: .4rem;
+}
+/*产品名称区域样式*/
+.ShopName>ul>.ShopTitle-Product div:nth-child(1){
+	font-size: .679rem;
+}
+/*产品名称区域样式*/
+.ShopName>ul>.ShopTitle-Product div:nth-child(2){
+	font-size: .543rem;
+	color: #A4A4A4;
+	padding-top: .679rem;
+}
+/*产品价格区域样式*/
+.ShopName>ul>.ShopTitle-Money{
+	width: 27.7%;
+	line-height: 3.487rem;
+	text-align: center;
+	font-size: .679rem;
+	color: #FF6B6B;
+}
+.ShopName>ul>.ShopTitle-List>img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-top: 1.358rem;
+}
+/*产品增加区域样式*/
+.ShopName>ul>.ShopTitle-Btn{
+	width: 21.2%;
+	height: 3.487rem;
+}
+/*产品增加样式*/
+.ShopName>ul>.ShopTitle-Btn button{
+	width: 1.222rem;
+	height: 1.222rem;
+	border: none;
+	color: #FFF;
+}
+/*产品增加样式*/
+.ShopTitle-Btn>div{
+	width: 33.3%;
+	margin-top: 1.132rem;
+	text-align: center;
+}
+/*结算区域样式*/
+.BarTab{
+	bottom: 2.5rem;
+    width: 100%;
+    padding: 0;
+    table-layout: fixed;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.2rem;
+    background-color: #f7f7f8;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*结算区域样式*/
+.BarTab>ul>li:nth-child(1),.BarTab>ul>li:nth-child(2){
+	width: 19%;
+	height: 2.219rem;
+	line-height: 2.219rem;
+	border:  .045rem solid #ECECEC;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: .588rem;
+}
+/*结算区域样式*/
+.BarTab>ul>li:nth-child(3){
+	width: 38.6%;
+	height: 2.219rem;
+	line-height: 2.219rem;
+	border:  .045rem solid #ECECEC;
+	box-sizing: border-box;
+	text-align: center;	
+	font-size: .724rem;
+}
+/*结算区域样式*/
+.BarTab>ul>li:nth-child(3)>a{
+	color: #FF2A2A;
+}
+/*结算区域样式*/
+.BarTab>ul>li:nth-child(4){
+	width: 23.4%;
+	height: 2.219rem;
+}
+/*结算按钮样式*/
+.BarTab>ul>li:nth-child(4)>button{
+	width: 100%;
+	line-height: 2.219rem;
+	border: none;
+	box-sizing: border-box;
+	text-align: center;	
+	background: #FF6600;
+	font-size: .724rem;
+	color: #FFF;
+
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

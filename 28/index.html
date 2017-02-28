@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>手机注册</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/Registered(second).css">
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">手机注册</h1>
+			</header>
+			<section class="content">
+				<!-- 标题图片 -->
+				<div class="Registered-titleimage"><img src="img/zhuce2.jpg"></div>
+				<!-- 验证码部分 -->
+				<div class="Registered-telephone">
+					<div class="Registered-code">验证码:</div>
+					<div class="Registered-phonenum"><input type="text" placeholder="请输入短信验证码" id="Registered-number"></input></div>
+					<div class="Registered-getntn">
+						<input type="button" id="Registered-getcode" value="获取" />
+					</div>
+					<div class="Registered-delbtn" id="Registered-delbtn">
+						<img src="img/delbtn.jpg" id="Registered-delimg">
+					</div>
+				</div>
+				<!-- 密码部分 -->
+				<div class="Registered-password">
+					<div class="Registered-pass">新密码:</div>
+					<div class="Registered-phonenum2"><input type="password" placeholder="6~8位字母或数字组合" id="Registered-number2"></input></div>
+					<div class="seepass">
+                        <img src="img/seepass (1).png" id="seebtn3">
+                    </div>
+				</div>
+				<!-- 验证码提示 -->
+				<div class="Registered-prompt" id="Registered-prompt">
+					没有收到验证码，60s后点击重新获取
+				</div>
+				<!-- 完成按钮部分 -->
+				<div class="Registered-finbtn" id="Registered-nextbtn">
+					<button id="Registered-btn"  disabled="true">完成</button>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type="text/javascript" src="js/Registered(second).js"></script>
+    <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    	
+    </script>
+</body>
+</html>

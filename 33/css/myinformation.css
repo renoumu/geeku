@@ -1,0 +1,139 @@
+/*设置最小与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*设置标题栏的背景颜色*/
+.bar{
+	background-color: #f76706;
+}
+/*设置标题栏icon颜色*/
+.bar .icon{
+	color: #fff;
+}
+/*设置标题栏文字颜色*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*头像昵称块样式*/
+.first{
+	margin-top: 0.5rem;
+	width: 100%;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	background-color: #fff;
+}
+/*联系与地址块样式*/
+.second{
+	margin-top: 0.5rem;
+	width: 100%;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	background-color: #fff;
+}
+/*设置P标签的内边距与外边距*/
+p{
+	margin:0px;
+	padding: 0px;
+}
+/*设置头像样式*/
+.headcontent{
+	width: 100%;
+	padding: 0.4rem;
+	height: 4.0rem;
+	border-bottom: 1px solid #e0dada;
+}
+.headname{
+	width: 20%;
+	float: left;
+	height: 3.18rem;
+	padding-top: 1.1rem;
+	font-family: "微软雅黑";
+}
+.headphoto{
+	height: 3.18rem;
+	width: 3.18rem;
+	float: right;
+}
+/*设置昵称的样式*/
+.namecontent{
+	width: 100%;
+	padding: 0.4rem;
+	height: 2.1rem;
+}
+.yourname{
+	width: 20%;
+	float: left;
+	font-family: "微软雅黑";
+}
+.altername{
+	width: 73%;
+	float: left;
+	text-align: right;
+	color: #aaa;
+	font-family: "微软雅黑";
+}
+/*设置点击输入昵称*/
+.nameright{
+	float: right;
+}
+.content .icon{
+	color: #aaa;
+}
+/*地址管理的样式*/
+.addresscontent{
+	width: 100%;
+	padding: 0.4rem;
+	height: 2.1rem;
+	border-bottom: 1px solid #e0dada;
+}
+.addressname{
+	width: 20%;
+	float: left;
+	font-family: "微软雅黑";
+}
+.alteraddress{
+	width: 73%;
+	float: left;
+	text-align: right;
+	color: #aaa;
+	font-family: "微软雅黑";
+}
+/*联系电话的样式*/
+.phonecontent{
+	width: 100%;
+	padding: 0.4rem;
+	height: 2.1rem;
+	border-bottom: 1px solid #e0dada;
+}
+.phonename{
+	width: 20%;
+	float: left;
+	font-family: "微软雅黑";
+}
+.alterphone{
+	width: 73%;
+	float: left;
+	text-align: right;
+	color: #aaa;
+	font-family: "微软雅黑";
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

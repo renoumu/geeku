@@ -1,0 +1,122 @@
+/*设置最小与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*登录的背景图片设置*/
+.content{
+	background: url(../image/bg_login@3x.png);
+	background-size: 100% 100%;
+}
+/*Logo块样式设置*/
+.logo{
+	width: 100%;
+	height: 3.351rem;
+	margin-top: 4.08rem;
+}
+/*img父级的样式*/
+.ImgFather{
+	width: 37.4%;
+	height: 3.351rem;
+	margin: 0 auto;
+}
+/*图片的样式*/
+.ImgFather>img{
+	width: 100%;
+}
+/*登录块样式*/
+.LoginBar{
+	width: 100%;
+	height: 12.364rem;
+	margin-top: 3rem;
+}
+/*登录框样式*/
+.LoginTitle,.Login{
+	width: 70%;
+	height: 2.22rem;
+	background-color: #FF6600;
+	margin: 0 auto;
+}
+/*文字样式*/
+.TitleTxt{
+    font-size: .75rem;
+    line-height: 2.2rem;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+}
+/*帐号与密码块样式*/
+.LoginAccount,.LoginPsw{
+	width: 70%;
+	height: 2.63rem;
+	margin: 0 auto;
+}
+/*帐号背景*/
+.LoginAccount{
+	background-image: url(../image/img_up@2x.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+/*密码背景*/
+.LoginPsw{
+	background-image: url(../image/img_down@2x.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+/*form表单样式*/
+.Form{
+	width: 80%;
+	margin: 0px auto;
+	font-size: .75rem;
+}
+/*inout的样式*/
+.Form>input{
+	width: 7.25rem;
+	line-height: 2.63rem;
+	border: none;
+	background: rgba(0,0,0,0);
+}
+/*input里面显示字体的颜色样式*/
+input::-webkit-input-placeholder{
+	color: #f7f7f7;
+}
+/*注册按钮样式*/
+.LoginReg{
+	width: 70%;
+	height: 2.22rem;
+	background: rgba(255,255,255,0.7);
+	margin: .452rem auto;
+}
+/*注册按钮文本颜色样式*/
+.LoginReg>.TitleTxt{
+	color: #292a2a;
+}
+/*忘记密码样式*/
+.ForgetPaw{
+	width: 70%;
+	margin: 0px auto;
+}
+/*忘记文本密码样式*/
+.ForgetPawTxt{
+	font-size: .65rem;
+    color: #FFF;
+    white-space: nowrap;
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

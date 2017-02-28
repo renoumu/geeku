@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>优惠券</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/Coupons.css"/>
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">优惠券</h1>
+			</header>
+			<section class="content">
+				<div class="Coupons">
+					<div id="Coupons-message" class="Coupons-message">
+						<div class="Coupons-allmessage">
+							<div class="Coupons-photo">
+								<img src="img/shoplogo.png" alt="" style="width: 100%;">
+							</div>
+							<div class="Coupons-content">
+								<p class="Coupons-name">商店名称</p>
+								<p class="Coupons-date">使用期限:2016.07.01-2016.07.30</p>
+							</div>
+							<div class="Coupons-img">
+								<img src="img/img_50元@3x.png" class="Coupons-imgcontent">
+							</div>
+						</div>
+						<div class="Coupons-delbtn">删除</div>
+					</div>
+				</div>
+				<div class="Coupons">
+					<div id="Coupons-message" class="Coupons-message">
+						<div class="Coupons-allmessage">
+							<div class="Coupons-photo">
+								<img src="img/shoplogo.png" alt="" style="width: 100%;">
+							</div>
+							<div class="Coupons-content">
+								<p class="Coupons-name">商店名称</p>
+								<p class="Coupons-date">使用期限:2016.07.01-2016.07.30</p>
+							</div>
+							<div class="Coupons-img">
+								<img src="img/img_50元@3x.png" class="Coupons-imgcontent">
+							</div>
+						</div>
+						<div class="Coupons-delbtn" >删除</div>
+					</div>
+				</div>
+				<div class="Coupons-dividingline">
+					<p>——————— 已经失效的优惠券 ———————</p>
+				</div>
+				<div class="Coupons">
+					<div id="Coupons-message" class="Coupons-message">
+						<div class="Coupons-allmessage">
+							<div class="Coupons-photo">
+								<img src="img/shoplogo.png" alt="" style="width: 100%;">
+							</div>
+							<div class="Coupons-content">
+								<p class="Coupons-name">商店名称</p>
+								<p class="Coupons-date">使用期限:2016.07.01-2016.07.30</p>
+							</div>
+							<div class="Coupons-img2" style="position: relative;">
+								<img src="img/icon_失效章@3x.png" alt="" style="position: absolute;width: 100%;">
+								<img src="img/img_50元_过期@3x.png" class="Coupons-imgcontent2">
+							</div>
+						</div>
+						<div class="Coupons-delbtn" id="Coupons-delbtn">删除</div>
+					</div>
+				</div>
+				<div class="Coupons">
+					<div id="Coupons-message" class="Coupons-message">
+						<div class="Coupons-allmessage">
+							<div class="Coupons-photo">
+								<img src="img/shoplogo.png" alt="" style="width: 100%;">
+							</div>
+							<div class="Coupons-content">
+								<p class="Coupons-name">商店名称</p>
+								<p class="Coupons-date">使用期限:2016.07.01-2016.07.30</p>
+							</div>
+							<div class="Coupons-img2" style="position: relative;">
+								<img src="img/icon_失效章@3x.png" alt="" style="position: absolute;width: 100%;">
+								<img src="img/img_50元_过期@3x.png" class="Coupons-imgcontent2">
+							</div>
+						</div>
+						<div class="Coupons-delbtn">删除</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+    <script type="text/javascript" src="js/Coupons.js"></script>
+    <script>
+    	$(function() {
+            $('.Coupons-message').touchWipe({itemDelete: '.Coupons-delbtn'});
+
+            $('.Coupons-delbtn').on('click', function(event) {
+                event.preventDefault();
+                $(this).parent().parent().remove('.Coupons');
+            });
+
+        });
+    </script>
+</body>
+</html>

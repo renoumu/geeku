@@ -1,0 +1,135 @@
+/*最小宽度与最大宽度*/
+body{min-width:320px;max-width: 640px;}
+/*标题栏样式*/
+._bar .icon {
+    position: relative;
+    z-index: 20;
+    padding: .5rem .1rem;
+    font-size: .8rem;
+    line-height: 1.0rem;
+    color: #fff;
+}
+/*标题栏样式*/
+._bar .button{
+	border: none;
+}
+/*标题栏样式*/
+._title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 -.5rem;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #EFEFF4;
+    text-align: center;
+    white-space: nowrap;
+}
+/*标题栏样式*/
+._bar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.22rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    background-color: #ff6600;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*轮播图样式*/
+.swiper-slide img{
+	width: 100%;
+}
+/*轮播图样式*/
+.content .swiper-container{
+	padding-bottom: .45rem;
+}
+/*轮播图样式*/
+.content .swiper-container-horizontal>.swiper-pagination{
+	bottom: .5rem;
+}
+/*栅格栏样式*/
+.row .col-50{
+    width: 44.4%;
+    height: 10.41rem;
+    background: yellow;
+    border: #eeeded .045rem solid;
+}
+/*栅格栏样式*/
+._col{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+/*栅格栏样式*/
+._col .col-left,._col .col-right{
+	width: 48.6%;
+	height: 10.41rem;
+	background: #FFF;
+	border: #eeeded .045rem solid;
+	box-sizing: border-box;
+}
+/*栅格栏图片样式*/
+.Show-pictures{
+	width: 100%;
+	height: 7.97rem;
+}
+/*栅格栏价格区域样式*/
+.product-price{
+	width: 100%;
+}
+/*栅格栏价格区域样式*/
+.product-price p,.product-price div{
+	margin: .15rem;
+}
+/*栅格栏价格区域样式*/
+.product-price div span:nth-child(1){
+	font-size: .63rem;
+	color: #ff3131;
+	line-height: 1rem;
+	font-weight: bold;
+}
+/*栅格栏价格区域样式*/
+.product-price div span:nth-child(2){
+	font-size: .45rem;
+	line-height: 1rem;
+}
+/*品牌简介样式*/
+.shopName{
+	height: 4.53rem;
+	background: url(../image/2.png)no-repeat;
+	background-size: 100% 4.53rem;
+	position: relative;
+}
+/*品牌简介样式*/
+.shopName .brand{
+	padding: 0 .9rem;
+	font-size: .54rem;
+	position: absolute;
+	bottom: .54rem;
+}
+.content>.content-padded {
+	margin: .5rem 0 0;
+    padding: .5rem;
+    background: #fff;
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}

@@ -1,0 +1,132 @@
+/*设置标题栏背景颜色*/
+.bar{
+	background-color: #f76706;
+}
+/*设置标题栏icon颜色*/
+.bar .icon{
+	color: #fff;
+}
+/*设置标题栏文字颜色*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置最小与最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置P标签外边距*/
+p{
+	margin:0px;
+}
+.content>p{
+	padding-left: .452rem;
+	line-height: 1.811rem;
+	font-size: .724rem;
+	background-color: #FFF;
+}
+/*意见反馈父级div样式*/
+.head{
+	width: 100%;
+	text-align: center;
+	background-color: #FFF;
+}
+/*内容输入框样式*/
+.textcontent{
+	width: 93%;
+	height: 7.74rem;
+	box-shadow: 0 0 2px #aaa;
+	font-family: "微软雅黑";
+	border-radius: 2px;
+	border: none;
+}
+/*字符计算样式*/
+.count{
+	width: 100%;
+	height: 1.72rem;
+	background-color: #FFF;
+}
+.showp{
+	float: right;
+	padding-right: .45rem;
+}
+#showcount2{
+	width: 1.68rem;
+	font-size: 0.63rem;
+	border: none;
+	text-align: right;
+	background-color: #FFF;
+	color: #aaa;
+}
+.show{
+	float: right;
+}
+#showcount{
+	width: 1.68rem;
+	font-size: 0.63rem;
+	border: none;
+	text-align: right;
+	background-color: #FFF;
+	color: #aaa;
+}
+/*提交按钮样式*/
+.submit{
+	width: 100%;
+	text-align: center;
+	margin-top: 2.67rem;
+}
+.subbtn{
+	width: 90%;
+	height: 2.17rem;
+	background-color:#AAAAAA;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	font-family: "微软雅黑";
+}
+/*************************************************/
+.content>.clear{
+	margin-top: .452rem;
+	padding: .452rem;
+	background-color: #fff;
+}
+.content>.clear>ul{
+	height: 1.041rem;
+}
+.content>.clear>ul>li{
+	width: .769rem;
+	height: .769rem;
+	line-height: 1.041rem; 
+}
+.content>.clear>p{
+	font-size: .724rem;
+}
+.content>.clear>ul>li img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

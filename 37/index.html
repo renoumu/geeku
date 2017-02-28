@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>修改密码</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="css/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sm-extend.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/ChangeThePassword(login).css">
+
+</head>
+<body>
+	<div class="page-group">
+        <div class="page page-current">
+        	<header class="bar bar-nav">
+        		<a class="icon icon-left pull-left" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+  				<h1 class="title">修改密码</h1>
+			</header>
+            <section class="password">
+                <div class="oldpass">
+                    <div class="passname">
+                        <p class="oldpassname">原始密码:</p>
+                    </div>
+                    <div class="passcontent">
+                        <input type="password" class="passcon1" id="passcon1" placeholder="6-8位字母数字组合"></input>
+                    </div>
+                    <div class="seepass">
+                        <img src="img/seepass (1).png" id="seebtn1">
+                    </div>
+                </div>
+                <div class="newpass">
+                    <div class="passname">
+                        <p class="newpassname">新 密 码:</p>
+                    </div>
+                    <div class="passcontent">
+                        <input type="password" class="passcon2" id="passcon2" placeholder="6-8位字母数字组合"></input>
+                    </div>
+                    <div class="seepass">
+                        <img src="img/seepass (1).png" id="seebtn2">
+                    </div>
+                </div>
+                <div class="secondpass">
+                    <div class="passname">
+                        <p class="secondpassname">再次输入:</p>
+                    </div>
+                    <div class="passcontent">
+                        <input type="password" class="passcon3" id="passcon3" placeholder="6-8位字母数字组合"></input>
+                    </div>
+                    <div class="seepass">
+                        <img src="img/seepass (1).png" id="seebtn3">
+                    </div>
+                </div>
+            </section>
+            <div class="submit">
+                <button class="subbtn" id="subbtn" disabled="true">完成</button>
+            </div>
+        </div>
+    </div>
+
+	<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+    <script type="text/javascript" src="js/ChangeThePassword(login).js"></script>
+</body>
+</html>

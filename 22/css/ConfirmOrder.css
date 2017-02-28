@@ -1,0 +1,297 @@
+/* 命名方式
+* 收货人信息 -- RecipientInformation
+* 商品信息 -- ProductInformation
+* 配送商店 -- DistributionStore
+* 付款方式 -- PaymentMethod
+*/
+
+/*最小宽度与最大宽度*/
+body{min-width: 320px;max-width: 640px;}
+/*--------------收货人信息 -- RecipientInformation------------------*/
+
+/*收货人信息样式*/
+.RecipientInformation{
+	width: 100%;
+	height: 6.075em;
+	background: #FFF;
+	border-image: url(../image/TrimStrip.png) 100% 0%;
+	border-top: .271rem;
+	border-bottom: .271rem;
+	box-sizing: border-box;
+}
+/*收货人信息样式*/
+.RecipientInformation-Left{
+	width: 85%;
+}
+/*信息块*/
+.RecipientInformation-Left>.Information{
+	height: 1.494rem;
+	line-height: 1.494rem;
+	margin-left: .452rem;
+}
+.RecipientInformation-Left>.Information>span{
+	font-size: .769rem;
+	font-weight: 500;
+}
+/*收货人名字地址块样式*/
+.ContactInformation{
+	height: 1.494rem;
+	line-height: 1.494rem;
+}
+/*收货人名字地址样式*/
+.ContactInformation>.ContactInformation-Name,.ContactInformation>.ContactInformation-Phone,.RecipientInformation-Left>.ShippingAddress{
+	font-size: .634rem;
+	font-weight: 500;
+}
+/*收货人名字地址样式*/
+.ContactInformation>.ContactInformation-Name,.ShippingAddress>div{
+	margin-left: 1.811rem;
+}
+/*收货人名字地址样式*/
+.ContactInformation>.ContactInformation-Phone{
+	margin-left: 1.585rem;
+}
+/*收货人名字地址样式*/
+.RecipientInformation-Left>.ShippingAddress{
+	height: 1.585rem;
+	line-height: 1.585rem; 
+	color: #AAA;
+}
+/*箭头样式*/
+.RecipientInformation-Right{
+	width: 15%;
+	height: 4.619rem;
+	line-height: 4.619rem;
+	text-align: center;
+}
+/*箭头样式*/
+.RecipientInformation-Right>.icon{
+	font-size: .679rem;
+	font-weight: 500;
+}
+/*--------------收货人信息 -- RecipientInformation The End------------------*/
+
+/*--------------商品信息 -- ProductInformation------------------*/
+
+/*商品信息块样式*/
+.ProductInformation{
+	width: 100%;
+	 background: #FFF;
+}
+/*商品信息块样式*/
+.ProductInformation>.ProductInformation-Information{
+	width: 100%;
+	height: 1.721rem;
+	padding-left: .498rem;
+	line-height: 1.721rem;
+	font-size: .724rem;
+	font-weight: 500;
+	background: #F5F5F5;
+}
+/*配送门店样式*/
+.DistributionStore{
+	margin: 0px .452rem;
+	padding-bottom: .452rem;
+}
+/*配送门店样式*/
+.DistributionStore>.DeliveryStores{
+	width: 100%;
+	height: 2.173rem;
+	line-height: 2.173rem;
+	border-bottom: .045rem solid #CCC;
+	font-size: .679rem;
+	font-weight: 500;
+}
+
+/*商品图片样式*/
+.Product{
+	width: 100%;
+	border-bottom: .045rem solid #CCC;
+}
+/*商品图片样式*/
+.Product>.Product-Icon{
+	width: 18.6%;
+}
+/*商品图片样式*/
+.Product>.Product-Icon>div{
+	width: 2.6rem;
+	height: 2.6rem;
+	margin: .452rem 0px;
+}
+/*产品介绍样式*/
+.Product-Information{
+	width: 81.4%;
+}
+/*产品名字样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Name{
+	font-size: .679rem;
+	font-weight: 500;
+	margin-top: .588rem;
+}
+/*产品价格样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Yen{
+	margin-top: .588rem;
+	font-size: .679rem;
+	font-weight: 500;
+	color: #F33;
+}
+/*产品价格样式*/
+.Product-Information>.Product-Information-Up>.Information-Up-Yen>span{
+	font-size: .488rem;
+}
+/*产品颜色选择样式*/
+.Product-Information-Down>.Information-Down-Color{
+	margin-top: .679rem;
+	font-size: .498rem;
+	font-weight: 500;
+	color: #CCC;
+}
+/*产品件数样式*/
+.Product-Information-Down>.Information-Down-Num{
+	margin-top: .679rem;
+	font-size: .679rem;
+	font-weight: 500;
+}
+/*--------------商品信息 -- ProductInformation The End------------------*/
+
+/*--------------付款方式 -- PaymentMethod------------------*/
+
+/*付款样式*/
+.PaymentMethod{
+	width: 100%;
+	 background: #FFF;
+	 margin-bottom: .452rem;
+}
+/*付款样式*/
+.PaymentMethod>.PaymentMethod-Method{
+	width: 100%;
+	height: 1.721rem;
+	padding-left: .498rem;
+	line-height: 1.721rem;
+	font-size: .724rem;
+	font-weight: 500;
+	background: #F5F5F5;
+}
+/*支付区域样式*/
+.Method{
+	margin: 0px .452rem;
+	height: 4.528rem;
+}
+/*支付样式*/
+.Method>.Method-Pay,.Method>.Method-Coupon{
+	width: 100%;
+	height: 2.264rem;
+	line-height: 2.264rem;
+	font-size: .679rem; 
+	border-bottom: .045rem solid #CCC;
+}
+/*支付样式*/
+.Method>.Method-Pay>.WeChatPay,.Method>.Method-Pay>.AliPay{
+	width: 50%;
+}
+/*支付样式*/
+.Method>.Method-Pay>.WeChatPay>input,.Method>.Method-Pay>.AliPay>input{
+	margin: 0px .452rem 0px 2.173rem;
+	vertical-align: middle;
+}
+/*--------------付款方式 -- PaymentMethod The End------------------*/
+
+/*--------------付款金额------------------*/
+
+/*付款金额合计区域样式*/
+.Price{
+	width: 100%;
+	background: #FFF;
+	margin-bottom: .452rem;
+}
+/*付款金额合计区域样式*/
+.PriceCalculation{
+	width: 100%;
+	background: #FFF;
+	padding: .452rem;
+	border-bottom: .045rem solid #CCC;
+}
+/*付款金额合计区域样式*/
+.PriceCalculation>.TotalMerchandise,.PriceCalculation>.Shipment,.PriceCalculation>.ShipmentRelief,.PriceCalculation>.PromotionsRelief{
+	width: 100%;
+	height: 1.041rem;
+	font-size: .588rem;
+	line-height: 1.041rem;
+}
+/*需要付款区域样式*/
+.Payment{
+	width: 100%;
+	height: 1.675rem;
+	line-height: 1.675rem;
+	font-size: .679rem;
+	font-weight: 500;
+}
+/*需要付款区域样式*/
+.Payment>.Payment-Font{
+	margin-left: .452rem;
+}
+/*需要付款区域样式*/
+.Payment>.Payment-Num{
+	margin-right: .452rem;
+	color: #F88;
+}
+/*需要付款区域样式*/
+.Payment>.Payment-Num>span{
+	font-size: .479rem;
+	font-weight: 500;
+}
+/*--------------付款金额 The End-----------------*/
+/*付款提示*/
+.SubmitOrder>.SubmitOrder-Arr{
+	margin-left: 5.615rem;
+}
+/*付款价格提示样式*/
+.SubmitOrder>.SubmitOrder-Arr,.SubmitOrder>.SubmitOrder-Money{
+	font-size: .543rem;
+	font-weight: 500;
+	line-height: 2.2rem;
+}
+/*付款价格提示样式*/
+.SubmitOrder>.SubmitOrder-Arr>span{
+	color: #F44;
+}
+/*付款价格提示样式*/
+.SubmitOrder>.SubmitOrder-Money>.Money{
+	font-size: .679rem;
+	font-weight: 500;
+}
+/*付款价格提示样式*/
+.SubmitOrder>.SubmitOrder-Money>span{
+	color: #F44;
+}
+/*付款价格提示样式*/
+.SubmitOrder>.SubmitOrder-Btn{
+    width: 3.759rem;
+    height: 1.539rem;
+    border: none;
+    font-size: .679rem;
+    background: #F60;
+    color: #FFF;
+    margin: .452rem;
+}
+/*媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

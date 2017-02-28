@@ -1,0 +1,158 @@
+/*最小宽度与最大宽度*/
+body{min-width:320px;max-width: 640px;}
+/*标题栏样式*/
+._bar .icon {
+    position: relative;
+    z-index: 20;
+    padding: .5rem .1rem;
+    font-size: .8rem;
+    line-height: 1.0rem;
+    color: #fff;
+}
+/*标题栏样式*/
+._bar .button{
+	border: none;
+}
+/*标题栏样式*/
+._title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 -.5rem;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #EFEFF4;
+    text-align: center;
+    white-space: nowrap;
+}
+/*标题栏样式*/
+._bar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.22rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    background-color: #ff6600;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/*店铺名称样式*/
+.Store-Name{
+	font-size: .76rem;
+	background: #fff;
+}
+.Store-Name>div{
+	width: 1.177rem;
+	height: .588rem;
+	margin: .543rem .271rem .543rem .543rem;
+}
+/*店铺名称样式*/
+.Store-Name>span{
+	line-height: 1.67rem;
+}
+/*轮播图样式*/
+.swiper-slide img{
+	width: 100%;
+}
+/*轮播图样式*/
+.content .swiper-container{
+	padding-bottom: 0;
+}
+/*轮播图样式*/
+.content .swiper-container-horizontal>.swiper-pagination{
+	bottom: .5rem;
+}
+/*店铺名称样式*/
+.StoreCon{
+	width: 100%;
+	margin-bottom: .45rem;
+}
+/*产品名字-价格区域样式*/
+.Recommend{
+	background: #fff;
+	width: 100%;
+	margin-bottom: .452rem;
+}
+/*产品图片样式*/
+.Margin{
+	width: 20%
+}
+/*产品图片样式*/
+.Price-details-left{
+	width: 3.07rem;
+	height: 3.07rem;
+	margin: .45rem;
+}
+/*产品名字样式*/
+.Price-details-right>.Baby-Name{
+	font-size: .76rem;
+	margin-top: .67rem; 
+}
+/*宝贝价格样式*/
+.Baby-details{
+	margin-top: .79rem;
+	height: 1.358rem;
+}
+/*宝贝价格样式*/
+.Baby-details>div:nth-child(1){
+	font-size: .63rem;
+	font-weight: 600;
+	color: #f44;
+	margin-right: .99rem;
+	line-height: 1.358rem; 
+}
+/*宝贝价格样式*/
+.Baby-details>div:nth-child(1) span{
+	font-size: .58rem;
+}
+/*宝贝价格样式*/
+.Baby-details>div:nth-child(2),.Baby-details>div:nth-child(3),.Baby-details>div:nth-child(4){
+	font-size: .49rem;
+	color: #999;
+	line-height: 1.358rem; 
+}
+/*宝贝价格样式*/
+.Baby-details>div:nth-child(2){
+	margin-right: 1.58rem;
+}
+/*宝贝价格样式*/
+.Baby-details>div:nth-child(3){
+	margin-right: .76rem;
+	width: 2.8rem;
+	font-size: .588rem;
+}
+.Baby-details>div:nth-child(4){
+	width: 2.8rem;
+	font-size: .588rem;
+}
+/*宝贝图片样式*/
+.RecommendedMore img{
+	width: 100%;
+}
+/*宝贝图片样式*/
+.RecommendedMore>div{
+	width: 3.21rem;
+	height: 3.21rem;
+	margin: .45rem 0 .45rem .45rem;
+}
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}

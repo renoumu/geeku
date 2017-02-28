@@ -1,0 +1,196 @@
+/*设置标题栏背景颜色样式*/
+.bar{
+	background-color: #f76706;
+}
+/*设置标题栏icon的颜色*/
+.bar .icon{
+	color: #fff;
+}
+/*设置标题栏文字的颜色*/
+.title{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+/*设置最小与最大宽度*/
+body{
+	min-width: 320px;
+	max-width: 640px;
+}
+/*设置P标签的外边据*/
+p{
+	margin: 0px;
+}
+/*店铺区域的样式*/
+.collectstore{
+	background-color: #fff;
+	height: 9.65rem;
+	width: 100%;
+	margin-top: 0.41rem;
+	border-top: 1px solid #e0dada;
+	border-bottom: 1px solid #e0dada;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+/*店铺logo的样式*/
+.storephoto{
+	height: 2.04rem;
+	width: 2.04rem;
+	margin-top: 0.5rem;
+	float: left;
+	margin-bottom: 7.16rem;
+	margin-right: 0.45rem;
+}
+/*店铺名称块区域的样式*/
+.storecontent{
+	height: 9.65rem;
+	padding-top: 0.45rem;
+	width: 85%;
+	float: left;
+}
+/*设置店铺名称的样式*/
+.storename{
+	width: 50%;
+	float: left;
+	margin-top: 0.23rem;
+	font-size: 0.68rem;
+}
+/*设置收藏按钮的样式*/
+.collectbtn{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+#btn1{
+	font-size: 0.59rem;
+}
+/*设置店铺介绍的样式*/
+.storedetails{
+	clear: both;
+	width: 100%;
+	font-size: 0.59rem;
+	height: 1.77rem;
+	margin-top: 1.7rem;
+}
+/*产品图样式*/
+.showstore{
+	width: 100%;
+	height: 4.98rem;
+}
+
+ /*设置产品名称与价格的样式*/
+.mcontent{
+	position:absolute;
+	height: 3.44rem;
+	width: 100%;
+	z-index: -999;
+}
+.mphoto{
+	width: 2.54rem;
+	height: 2.54rem;
+	float: left;
+	margin-top: 0.41rem;
+}
+.mstore{
+	width: 80%;
+	float: left;
+	margin-left: 0.54rem;
+}
+.mname{
+	float: left;
+	width: 50%;
+	font-size: 0.68rem;
+	font-family: "微软雅黑";
+	margin-top: 0.4rem;
+}
+.mprice{
+	float: left;
+	width: 50%;
+	font-family: "微软雅黑";
+	font-size: 0.68rem;
+	color: #f00;
+	text-align: right;
+	margin-top: 0.4rem;
+}
+.mdetails{
+	font-size: 0.59rem;
+	font-family: "微软雅黑";
+	margin-top: 0.54rem;
+	float: left;
+}
+/*删除删除按钮的样式*/
+.delbtn{ 
+	position: absolute; 
+	top: 0; 
+	right: -3.5rem; 
+	text-align: center; 
+	background: #f00; 
+	height: 3.89rem;
+	color: #fff; 
+	width: 3.5rem;
+	line-height: 3.8rem;
+}
+/*产品内容*/
+.allmessage{ 
+	overflow: hidden;
+	list-style: none;
+	margin:0.5rem 0px 0px 0px;
+	padding: 0px;
+	border-top: 1px solid #e0dada;
+}
+/*设置滑动删除的样式*/
+.message{ 
+    height: 3.44rem;
+	border-bottom: 1px solid #e0dada;
+	position:relative;
+	padding-left:0.5rem; 
+	color: #666;
+    background: #f2f2f2;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    width: 100%;
+    background-color: #fff;
+}
+/*设置内容的样式*/
+.con{
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	height: 3.44rem;
+}
+/*设置删除按钮的样式*/
+.delbtn{ 
+	position: absolute; 
+	top: 0; 
+	right: -3.5rem; 
+	text-align: center; 
+	background: #f00; 
+	color: #fff; 
+	width: 3.5rem;
+	height: 3.44rem;
+	line-height: 3.4rem;
+}
+.content>.buttons-tab .button.active{
+	color: #000000;
+    border-color: #F76706;
+}
+/*设置自适应的媒体查询*/
+@media only screen and (min-width:440px) {
+	html {
+		font-size:23.5px!important;
+	}
+}
+@media only screen and (min-width:520px) {
+	html {
+		font-size:28px!important;
+	}
+}
+@media only screen and (min-width:560px) {
+	html {
+		font-size:30.2px!important;
+	}
+}
+@media only screen and (min-width:640px) {
+	html {
+		font-size:35px!important;
+	}
+}

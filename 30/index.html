@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>订单确认</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/MyOrder.css" />
+    <link rel="stylesheet" href="css/sm.min.css" />
+    <link rel="stylesheet" href="css/sm-extend.min.css" />
+</head>
+<body>
+    <div class="page-group">
+        <div class="page">
+            <header class="bar bar-nav" style="background: #F60;">
+                <h1 class="title" style="color: #FFF;">我的订单</h1>
+                <a class="icon icon-left" style="color: #FFF;" href="javascript:void(0)" onClick="javascript:history.back(-1);"></a>
+            </header>
+            <div class="content MyOrder">
+                <div class="buttons-tab">
+                    <a href="#tab1" class="tab-link active button">全部</a>
+                    <a href="#tab2" class="tab-link button">待付款</a>
+                    <a href="#tab3" class="tab-link button">待收货</a>
+                    <a href="#tab4" class="tab-link button">待评价</a>
+                    <a href="#tab5" class="tab-link button">退货/退款</a>
+                </div>
+                <div class="tabs">
+                    <div id="tab1" class="tab active">
+                        <div class="Unpaid">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">未付款</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除1</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;288.00</span></div>
+                                        <button class="Order-Btn pull-right">马上支付</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="WaitForTheReceipt">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">待收货</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;288.00</span></div>
+                                        <button class="Order-Btn pull-right">确认收货</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="TransactionComplete">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">交易完成</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete">删除</div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;149.00</span></div>
+                                        <button class="Order-Btn pull-right">评价</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="RefundSuccess">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">退款成功</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete">删除</div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;149.00</span></div>
+                                        <button class="Order-Btn pull-right">确认退款</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <div class="Unpaid">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">未付款</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;288.00</span></div>
+                                        <button class="Order-Btn pull-right">马上支付</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">未付款</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;288.00</span></div>
+                                        <button class="Order-Btn pull-right">马上支付</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <div class="WaitForTheReceipt">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">待收货</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;288.00</span></div>
+                                        <button class="Order-Btn pull-right">确认收货</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">待收货</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="DeleteSlide clear">
+                                            <div class="Cancel fl">取消<br/>订单</div>
+                                            <div class="Delete fl">删除</div>
+                                        </div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;149.00</span></div>
+                                        <button class="Order-Btn pull-right">确认收货</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab">
+                        <div class="TransactionComplete">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">交易完成</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete clear">删除</div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete clear">删除</div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;248.00</span></div>
+                                        <button class="Order-Btn pull-right">评价</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="TransactionComplete">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">交易完成</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete clear">删除</div>
+                                    </div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete clear">删除</div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;248.00</span></div>
+                                        <button class="Order-Btn pull-right">评价</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab5" class="tab">
+                        <div class="RefundSuccess">
+                            <div class="ProductInformation">
+                                <div class="DistributionStore">
+                                    <div class="DeliveryStores">订单编号：<span>201602031111</span> <span class="pull-right UnpaidNo">退款成功</span></div>
+                                    <div class="Product clear">
+                                        <div class="Product-Icon fl">
+                                            <div>
+                                                <img src="image/clothes.png" alt="" style="width: 100%;">
+                                            </div>
+                                        </div>
+                                        <div class="Product-Information fl">
+                                            <div class="Product-Information-Up clear">
+                                                <div class="Information-Up-Name fl">产品名称</div>
+                                                <div class="Information-Up-Yen fr">&yen;149.<span>00</span></div>
+                                            </div>
+                                            <div class="Product-Information-Down clear">
+                                                <div class="Information-Down-Color fl">红色　XS</div>
+                                                <div class="Information-Down-Num fr">x1</div>
+                                            </div>
+                                        </div>
+                                        <div class="Delete clear">删除</div>
+                                    </div>
+                                    <div class="Order clear">
+                                        <div class="Order-No fl">共<span>2</span>件,</div>
+                                        <div class="Order-Money fl">总金额<span>&yen;149.00</span></div>
+                                        <button class="Order-Btn pull-right">确认退款</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/sm-extend.min.js"></script>
+	<script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/MyOrder.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.Unpaid .Product').touchWipe({itemDelete: '.DeleteSlide'});
+            $('.WaitForTheReceipt .Product').touchWipe({itemDelete: '.DeleteSlide'});
+            $('.TransactionComplete .Product').touchWipe({itemDelete: '.Delete'});
+            $('.RefundSuccess .Product').touchWipe({itemDelete: '.Delete'});
+
+            $('.Delete').on('click',function(event) {
+                event.preventDefault();
+                $(this).parent().parent().remove('.Product');
+            });
+        });
+        $('.Cancel').on('click',function(){
+            window.location.href = "../9/index.html"
+        })
+        $('.Product').on('click',function(){
+            window.location.href = "../34/index.html"
+        })
+        $('.Unpaid .Order-Btn').on('click',function(){
+            window.location.href = "../9/index.html"
+        })
+        $('.WaitForTheReceipt .Order-Btn').on('click',function(){
+            window.location.href = "../8/index.html"
+        })
+        $('.TransactionComplete .Order-Btn').on('click',function(){
+            window.location.href = "../20/index.html"
+        })
+    </script>
+</html>
